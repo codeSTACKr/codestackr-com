@@ -17,7 +17,7 @@ const Header = () => {
         >
           <div className="flex flex-1 items-center">
             <div className="flex w-full items-center justify-between md:w-auto">
-              <Link href="https://codestackr.com">
+              <Link href="/">
                 <span className="sr-only">codeSTACKr</span>
                 <svg className="h-8 w-auto sm:h-10" viewBox="0 0 800 800" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <rect x="114" y="175" width="65" height="450" fill="currentColor"/>
