@@ -12,7 +12,7 @@ author:
   picture: '/assets/blog/authors/jesse.png'
 ---
 
-<base target="_blank" rel="noreferrer nofollow" />
+
 
 # Ultimate Guide to Web Development in 2021 & Beyond! | Roadmap 2021+
 
@@ -20,7 +20,7 @@ In this article, I'll guide you through my ultimate web development roadmap for 
 
 We are going to cover a ton of technologies in this article. Don't get overwhelmed. You do **not** have to learn everything in this article.
 
-![image](/assets/blog/ultimate-guide-to-web-development-in-2021-and-beyond-roadmap/image_0.png)
+![image](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/public/assets/blog/ultimate-guide-to-web-development-in-2021-and-beyond-roadmap/image_0.png)
 
 This is an entire map of web development. Most web developers specialize in small parts of this. Such as UI/UX Design, Front-End development, Back-End development, CI/CD and DevOps.
 
@@ -34,7 +34,7 @@ There is a link in the description below to a [FREE PDF](https://courses.codesta
 
 # How The Internet Works
 
-![image](/assets/blog/ultimate-guide-to-web-development-in-2021-and-beyond-roadmap/image_1.png)
+![image](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/public/assets/blog/ultimate-guide-to-web-development-in-2021-and-beyond-roadmap/image_1.png)
 
 First, you need to understand how the internet works. You need a basic understanding of how computers communicate by using browsers, domain names, hosting services, HTTP/HTTPS, and DNS.
 
@@ -47,7 +47,7 @@ Resources:
 
 <figure>
 
-![image](/assets/blog/ultimate-guide-to-web-development-in-2021-and-beyond-roadmap/image_2.png)
+![image](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/public/assets/blog/ultimate-guide-to-web-development-in-2021-and-beyond-roadmap/image_2.png)
 
 <figcaption>
 
@@ -87,7 +87,7 @@ For anything design related, these are the 2 YouTube channels that I go to:
 
 # HTML
 
-![image](/assets/blog/ultimate-guide-to-web-development-in-2021-and-beyond-roadmap/image_3.png)
+![image](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/public/assets/blog/ultimate-guide-to-web-development-in-2021-and-beyond-roadmap/image_3.png)
 
 Every webpage uses HTML. It is the main building block of the web. HTML provides the structure of a website. It is actaully not a programming language, but a markup language.
 
@@ -99,7 +99,7 @@ Resources:
 
 # CSS
 
-![image](/assets/blog/ultimate-guide-to-web-development-in-2021-and-beyond-roadmap/image_4.png)
+![image](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/public/assets/blog/ultimate-guide-to-web-development-in-2021-and-beyond-roadmap/image_4.png)
 
 CSS is another important part of every website. It provides its styling, makes things look good on all devices, and adds flair with transitions and animations.
 
@@ -152,7 +152,7 @@ Designers will tell you what it should look like and how it should flow. Back-En
 
 ## JavaScript
 
-![image](/assets/blog/ultimate-guide-to-web-development-in-2021-and-beyond-roadmap/image_5.png)
+![image](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/public/assets/blog/ultimate-guide-to-web-development-in-2021-and-beyond-roadmap/image_5.png)
 
 JavaScript is the first programming language that you'll learn as a Front-End developer. It makes the website do "things".
 
@@ -184,7 +184,7 @@ Resources:
 
 ## Front-End Frameworks
 
-![image](/assets/blog/ultimate-guide-to-web-development-in-2021-and-beyond-roadmap/image_6.png)
+![image](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/public/assets/blog/ultimate-guide-to-web-development-in-2021-and-beyond-roadmap/image_6.png)
 
 > 💡 Note: I'm not going to get into the framework vs library discussion here. Whether something is technically a framework or a library is a moot point.
 
@@ -213,7 +213,7 @@ Resources:
 
 ## State Management
 
-![image](/assets/blog/ultimate-guide-to-web-development-in-2021-and-beyond-roadmap/image_7.png)
+![image](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/public/assets/blog/ultimate-guide-to-web-development-in-2021-and-beyond-roadmap/image_7.png)
 
 When you are working with frameworks, you'll soon realize how impotant it is to keep track of your applications state.
 
@@ -232,7 +232,7 @@ Resources:
 
 ## Static Site Generators and Server Side Rendering (SSR)
 
-![image](/assets/blog/ultimate-guide-to-web-development-in-2021-and-beyond-roadmap/image_8.png)
+![image](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/public/assets/blog/ultimate-guide-to-web-development-in-2021-and-beyond-roadmap/image_8.png)
 
 Static site generators became very popular in 2020 and will continue in 2021. These make building simple things like landing pages so easy. But they are not just limited to that. A common use for SSG's are blogging sites.
 
@@ -261,7 +261,7 @@ Resources:
 
 ## More Tools
 
-![image](/assets/blog/ultimate-guide-to-web-development-in-2021-and-beyond-roadmap/image_9.png)
+![image](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/public/assets/blog/ultimate-guide-to-web-development-in-2021-and-beyond-roadmap/image_9.png)
 
 There are many more tools that you will need to learn. Here are the main ones.
 
@@ -287,7 +287,7 @@ There are many more tools that you will need to learn. Here are the main ones.
 
 ## Other Technologies
 
-![image](/assets/blog/ultimate-guide-to-web-development-in-2021-and-beyond-roadmap/image_10.png)
+![image](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/public/assets/blog/ultimate-guide-to-web-development-in-2021-and-beyond-roadmap/image_10.png)
 
 ### GraphQL
 
@@ -344,7 +344,7 @@ Resources:
 
 Working as a back-end developer involves managing servers, deployment, APIs, and databases mostly.
 
-![image](/assets/blog/ultimate-guide-to-web-development-in-2021-and-beyond-roadmap/image_11.png)
+![image](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/public/assets/blog/ultimate-guide-to-web-development-in-2021-and-beyond-roadmap/image_11.png)
 
 ## Pick a Language
 
@@ -377,7 +377,7 @@ Resources:
 
 ## Back-End Frameworks
 
-![image](/assets/blog/ultimate-guide-to-web-development-in-2021-and-beyond-roadmap/image_12.png)
+![image](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/public/assets/blog/ultimate-guide-to-web-development-in-2021-and-beyond-roadmap/image_12.png)
 
 The back-end has frameworks too. The same rules apply when learning a back-end framework. Learn the base language _before_ jumping into the framework.
 
@@ -402,7 +402,7 @@ Resources:
 
 ## Databases
 
-![image](/assets/blog/ultimate-guide-to-web-development-in-2021-and-beyond-roadmap/image_13.png)
+![image](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/public/assets/blog/ultimate-guide-to-web-development-in-2021-and-beyond-roadmap/image_13.png)
 
 Just about every site has some data that it needs to keep. Examples of data would be products for sale or blog posts.
 
@@ -453,7 +453,7 @@ Here's a fun tutorial on how to build your own API: [Make Your Own API (Ania Kub
 
 ## Authentication
 
-![image](/assets/blog/ultimate-guide-to-web-development-in-2021-and-beyond-roadmap/image_14.png)
+![image](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/public/assets/blog/ultimate-guide-to-web-development-in-2021-and-beyond-roadmap/image_14.png)
 
 If your site needs to keep track of users, you'll need to implement authentication. The most common ways to do this is by using OAuth or JavaScript Web Tokens (JWT).
 
@@ -466,7 +466,7 @@ Resources:
 
 ## Blockchain / Cryptocurrency
 
-![image](/assets/blog/ultimate-guide-to-web-development-in-2021-and-beyond-roadmap/image_15.png)
+![image](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/public/assets/blog/ultimate-guide-to-web-development-in-2021-and-beyond-roadmap/image_15.png)
 
 Blockchain is a type of database. But it's not like a typical database. It stores data in blocks and then chains them together in chronological order.
 
@@ -487,7 +487,7 @@ To learn more about these technologies visit:
 
 ## Content Management Systems (CMS)
 
-![image](/assets/blog/ultimate-guide-to-web-development-in-2021-and-beyond-roadmap/image_16.png)
+![image](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/public/assets/blog/ultimate-guide-to-web-development-in-2021-and-beyond-roadmap/image_16.png)
 
 Content management systems allow you to easily manage the content of your site. If you are a freelancer, you will most definately want a good CMS for your customer to use so that they can easily update the content on their website themselves.
 
@@ -516,7 +516,7 @@ Resources:
 
 ## Deployment / DevOps
 
-![image](/assets/blog/ultimate-guide-to-web-development-in-2021-and-beyond-roadmap/image_17.png)
+![image](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/public/assets/blog/ultimate-guide-to-web-development-in-2021-and-beyond-roadmap/image_17.png)
 
 Deployment and DevOps involves understanding how to create and manage environments along with deploying applications to the web.
 
@@ -532,7 +532,7 @@ Resources:
 - [What are GitHub Actions? (Eddie Jaoude)](https://www.youtube.com/watch?v=5ncuRFwnrdc)
 - [Automatic Deployment with GitHub Actions (Traversy Media - Anson The Developer)](https://www.youtube.com/watch?v=X3F3El_yvFg)
 
-![image](/assets/blog/ultimate-guide-to-web-development-in-2021-and-beyond-roadmap/image_18.png)
+![image](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/public/assets/blog/ultimate-guide-to-web-development-in-2021-and-beyond-roadmap/image_18.png)
 
 ### Hosting
 
@@ -587,7 +587,7 @@ Resources:
 
 # Mobile Development
 
-![image](/assets/blog/ultimate-guide-to-web-development-in-2021-and-beyond-roadmap/image_19.png)
+![image](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/public/assets/blog/ultimate-guide-to-web-development-in-2021-and-beyond-roadmap/image_19.png)
 
 The traditional way to build a mobile application is by using languages such as Swift for iOS development and Java or Katlin for Android development. But if you've learned HTML, CSS, and JavaScript you can use these to build native mobile applications.
 
@@ -607,7 +607,7 @@ Resources:
 
 # Desktop Development
 
-![image](/assets/blog/ultimate-guide-to-web-development-in-2021-and-beyond-roadmap/image_20.png)
+![image](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/public/assets/blog/ultimate-guide-to-web-development-in-2021-and-beyond-roadmap/image_20.png)
 
 You can also use your web development skills to build cross-platform desktop apps with Electron. Electron uses JavaScript, HTML, and CSS.
 
@@ -617,7 +617,7 @@ Some popular apps that are built with Electron are Visual Studio Code, Twitch, S
 
 # Machine Learning / AI
 
-![image](/assets/blog/ultimate-guide-to-web-development-in-2021-and-beyond-roadmap/image_21.png)
+![image](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/public/assets/blog/ultimate-guide-to-web-development-in-2021-and-beyond-roadmap/image_21.png)
 
 AI and machine learning is widely used to imitate human intelligence and perform simple as well as complex functions like the ability to learn and analyze information, collect data, understand emotions of humans, or to solve complex business challenges and problems.
 
@@ -631,7 +631,7 @@ Resources:
 
 # Soft Skills & Personal Development
 
-![image](/assets/blog/ultimate-guide-to-web-development-in-2021-and-beyond-roadmap/image_22.png)
+![image](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/public/assets/blog/ultimate-guide-to-web-development-in-2021-and-beyond-roadmap/image_22.png)
 
 Something that often gets overlooked is soft skills, or a better name for it is people skills, along with personal development.
 
@@ -690,6 +690,6 @@ Check out the full video on my YouTube channel.
 
 Help me out by liking this video and [subscribing](https://www.youtube.com/codeSTACKr/?sub_confirmation=1) if you haven’t already.
 
-<YouTubeEmbed title="Ultimate Guide to Web Development in 2021 & Beyond! | Roadmap 2021+" id="7k7ETzqOxn8" />
+%[https://youtu.be/7k7ETzqOxn8]
 
 ## Thanks for reading!

@@ -12,15 +12,15 @@ author:
   picture: "/assets/blog/authors/jesse.png"
 ---
 
-<base target="_blank" rel="noreferrer nofollow" />
+
 
 # The Sass Module System
 
 Today we are going to talk about a feature of Sass that no one else seems to be talking about. The deprecation of the `@import` rule and implementation of the new Module System including the new `@use` rule. I recently came across this in the Sass documentation.
 
-![Sass News](/assets/blog/sass-modules/1.png)
+![Sass News](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/public/assets/blog/sass-modules/1.png)
 
-<YouTubeEmbed title='Sass Module System Update 2020 | SCSS import Deprecation' id='tLqqi5gyxQg' />
+{% youtube tLqqi5gyxQg %}
 
 > If you are interested in more content like this, feel free to [subscribe](https://www.youtube.com/codeSTACKr/?sub_confirmation=1) to my YouTube channel.
 
@@ -28,7 +28,7 @@ Today we are going to talk about a feature of Sass that no one else seems to be 
 
 In October of 2019, the Module System became available. The heart of the Module System is the `@use` rule. This rule makes CSS, variables, mixins, and functions from another stylesheet accessible in the current stylesheet. By default, variables, mixins, and functions are available in a namespace based on the basename of the URL.
 
-<CH.Code>
+
 
 ```scss
 @use "colors";
@@ -38,7 +38,7 @@ In October of 2019, the Module System became available. The heart of the Module 
 }
 ```
 
-</CH.Code>
+
 
 In addition to namespacing, there are a few important differences between `@use` and `@import`:
 
@@ -52,7 +52,7 @@ Let's take a closer look at namespaces and why this is a really awesome feature.
 
 So, here we have two component files. One for our hero component and one for our card component. Generally we would have to uniquely name our variables to avoid any conflicts. But let's just say we "accidentally" named two variables the same.
 
-<CH.Code>
+
 
 ```scss _hero-component.scss
 $width: 100vw;
@@ -64,11 +64,11 @@ $width: 100vw;
 $width: 80%;
 ```
 
-</CH.Code>
+
 
 If we used `@import` to bring these in, we'll run into some issues. `@import` will always evaluate the member that has been imported last. So this will always evaluate to the card width since it was the last to load.
 
-<CH.Code>
+
 
 ```scss
 @import 'hero-component';
@@ -83,11 +83,11 @@ If we used `@import` to bring these in, we'll run into some issues. `@import` wi
 }
 ```
 
-</CH.Code>
+
 
 This is where the `@use` rule comes in.
 
-<CH.Code>
+
 
 ```scss
 @use 'hero-component';
@@ -102,7 +102,7 @@ This is where the `@use` rule comes in.
 }
 ```
 
-</CH.Code>
+
 
 So now we no longer have to get creative with our variable names.
 
@@ -110,7 +110,7 @@ So now we no longer have to get creative with our variable names.
 
 Now, you might think that's more work having to type the namespaces. Well, we can actually control the namespace of a module. It can be set explicitly using `as`.
 
-<CH.Code>
+
 
 ```scss
 @use 'hero-component' as hero;
@@ -125,11 +125,11 @@ Now, you might think that's more work having to type the namespaces. Well, we ca
 }
 ```
 
-</CH.Code>
+
 
 We can even promote modules to the top-level namespace using `as *`.
 
-<CH.Code>
+
 
 ```scss
 @use 'colors' as *;
@@ -139,7 +139,7 @@ We can even promote modules to the top-level namespace using `as *`.
 }
 ```
 
-</CH.Code>
+
 
 But we have to be careful with this and ensure that we do not introduce any conflicts. If conflicts are found, the compiler with throw an error.
 
@@ -147,7 +147,7 @@ But we have to be careful with this and ensure that we do not introduce any conf
 
 Another great feature of the Module System is the ability to configure the default values of a module. A stylesheet can define variables with the `!default` flag to make them configurable. Here we have a library that defines a default `$border-radius`:
 
-<CH.Code>
+
 
 ```scss _library.scss
 $border-radius: 0.25rem !default;
@@ -157,11 +157,11 @@ $border-radius: 0.25rem !default;
 }
 ```
 
-</CH.Code>
+
 
 We can modify the default value like this:
 
-<CH.Code>
+
 
 ```scss style.scss
 @use 'library' with (
@@ -169,11 +169,11 @@ We can modify the default value like this:
 );
 ```
 
-</CH.Code>
+
 
 And here is the resulting CSS:
 
-<CH.Code>
+
 
 ```css
 .card {
@@ -181,7 +181,7 @@ And here is the resulting CSS:
 }
 ```
 
-</CH.Code>
+
 
 ## Private Members
 
@@ -189,7 +189,7 @@ There's never been a way to have private members in a Sass stylesheet before the
 
 In this example, we define a private variable, `$-radius`. We can `@include` the mixin but we cannot use the variable. That will result in an error during compilation.
 
-<CH.Code>
+
 
 ```scss _corners.scss
 $-radius: 3px;
@@ -212,7 +212,7 @@ $-radius: 3px;
 }
 ```
 
-</CH.Code>
+
 
 ## What Now??
 

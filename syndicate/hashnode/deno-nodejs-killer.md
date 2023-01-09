@@ -12,7 +12,7 @@ author:
   picture: "/assets/blog/authors/jesse.png"
 ---
 
-<base target="_blank" rel="noreferrer nofollow" />
+
 
 # Deno: Node.js Killer? Introduction & Demo | Ryan Dahl
 
@@ -22,7 +22,7 @@ Out with the old and in with the new! Will Deno replace Node?? Well, let's see.
 
 First off, it's pronounced De'no. Like Deno the dinosaur.
 
-![Deno](/assets/blog/deno-nodejs-killer/1.gif)
+![Deno](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/public/assets/blog/deno-nodejs-killer/1.gif)
 
 It's a secure runtime for JavaScript and TypeScript. A general-purpose JavaScript and TypeScript programming environment. A new way to write server-side JavaScript.
 
@@ -66,41 +66,41 @@ There are several ways to install Deno. Here are two examples.
 
 Using Shell:
 
-<CH.Code>
+
 
 ```bash
 `curl -fsSL <https://deno.land/x/install/install.sh> | sh`
 ```
 
-</CH.Code>
+
 
 Using PowerShell:
 
-<CH.Code>
+
 
 ```bash
 `iwr <https://deno.land/x/install/install.ps1> -useb | iex`
 ```
 
-</CH.Code>
+
 
 ## Running Code
 
 To run your code, use `deno run`. Here is a welcome script from Deno:
 
-<CH.Code>
+
 
 ```bash
 `deno run <https://deno.land/std/examples/welcome.ts>`
 ```
 
-</CH.Code>
 
-![Running Deno in the terminal.](/assets/blog/deno-nodejs-killer/2.jpg)
+
+![Running Deno in the terminal.](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/public/assets/blog/deno-nodejs-killer/2.jpg)
 
 Let's look at a bit more complex example. Here we'll import an HTTP server from Deno and use it to host a basic website on localhost port 8000.
 
-<CH.Code>
+
 
 ```js
 import { serve } from "<https://deno.land/std@0.50.0/http/server.ts>";
@@ -111,11 +111,11 @@ for await (const req of s) {
 }
 ```
 
-</CH.Code>
+
 
 In this example you can see the top level `async` in action. This simply creates a webpage with “Hello World”.
 
-![Hello World Example](/assets/blog/deno-nodejs-killer/3.jpg)
+![Hello World Example](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/public/assets/blog/deno-nodejs-killer/3.jpg)
 
 ## Final Thoughts
 
@@ -135,6 +135,6 @@ Check out the full video with a live demo of Deno on my YouTube channel:
 
 Help me out by liking this video and [subscribing](https://www.youtube.com/codeSTACKr/?,sub_confirmation=1) if you haven't already.
 
-<YouTubeEmbed title='Deno: Node.js Killer? Introduction &amp; Tutorial | From Creator Ryan Dahl | TypeScript/JS' id='3Vt_cjgojDI' />
+%[https://youtu.be/3Vt_cjgojDI]
 
 ## **Thanks for reading!**

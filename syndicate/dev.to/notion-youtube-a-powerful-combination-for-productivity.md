@@ -12,7 +12,7 @@ author:
   picture: "/assets/blog/authors/jesse.png"
 ---
 
-<base target="_blank" rel="noreferrer nofollow" />
+
 
 # Notion + YouTube - A Powerful Combination for Productivity
 
@@ -24,7 +24,7 @@ Also, this blog is not sponsored in any way by Notion.
 
 I created a poll on Twitter asking if you'd like to see a video on how I use Notion to track my content creation process and here were the results.
 
-![Twitter Poll](/assets/blog/notion-youtube-a-powerful-combination-for-productivity/1.jpg)
+![Twitter Poll](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/public/assets/blog/notion-youtube-a-powerful-combination-for-productivity/1.jpg)
 
 So I'm going to show you what Notion is, how I use it, and I'm going to give you the template that I use. You'll find the link to that template further down.
 
@@ -54,47 +54,47 @@ Now, before I started using Notion I really didn't have a system at all. I used 
 
 Here's Notion.
 
-![Screenshot of Notion](/assets/blog/notion-youtube-a-powerful-combination-for-productivity/2.jpg)
+![Screenshot of Notion](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/public/assets/blog/notion-youtube-a-powerful-combination-for-productivity/2.jpg)
 
 I have my content planner and my course planner. Then a video planner/tracker template. This template is what my other trackers are based on. It looks a lot like a spreadsheet. But it is basically a database. And unlike spreadsheets, it is much more flexible. You can actually look at them in different views, such as Kanban view and calendar view.
 
 So, here we have columns with different types of information, but the cool thing about Notion is that a database here really is a database. It isn't just a spreadsheet of information. Every single row is actually its own page, and within these pages, you can put whatever you want including other databases. So this can get really, really powerful.
 
-![Notion Screenshot](/assets/blog/notion-youtube-a-powerful-combination-for-productivity/3.jpg)
+![Notion Screenshot](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/public/assets/blog/notion-youtube-a-powerful-combination-for-productivity/3.jpg)
 
 ## Creating a project
 
 So first, I'll just give you an overview of how this works. So when I think of a new content idea, I can just type here and say “New JavaScript Features”.
 
-![Notion Screenshot](/assets/blog/notion-youtube-a-powerful-combination-for-productivity/4.jpg)
+![Notion Screenshot](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/public/assets/blog/notion-youtube-a-powerful-combination-for-productivity/4.jpg)
 
 But if I do this, I'm just going to end up with a blank page. And that's fine if I just wanted a blank page. But I want some templated information. So this template actually has another template built-in. Instead of clicking “new”, we'll click the down arrow and select the project template.
 
-![Notion Screenshot](/assets/blog/notion-youtube-a-powerful-combination-for-productivity/5.jpg)
+![Notion Screenshot](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/public/assets/blog/notion-youtube-a-powerful-combination-for-productivity/5.jpg)
 
 We'll go through the rest of this in a minute, but I'm just going to fill in the title for now. By default, the template gives the video a number of 999. This is because I have this view set up to sort by the video number, descending. That way the new project will always be at the top. So everything that is active should be near the top.
 
-![Notion Screenshot](/assets/blog/notion-youtube-a-powerful-combination-for-productivity/6.jpg)
+![Notion Screenshot](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/public/assets/blog/notion-youtube-a-powerful-combination-for-productivity/6.jpg)
 
 ## Views
 
 Now I'm going to set the status of this project to “idea”.
 
-![Notion Screenshot](/assets/blog/notion-youtube-a-powerful-combination-for-productivity/7.jpg)
+![Notion Screenshot](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/public/assets/blog/notion-youtube-a-powerful-combination-for-productivity/7.jpg)
 
 Notice that it disappeared. I have set up several views in this template. This view shows me all projects except ones with the status of “Idea”. I have an idea view specifically setup.
 
-![Notion Screenshot](/assets/blog/notion-youtube-a-powerful-combination-for-productivity/8.jpg)
+![Notion Screenshot](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/public/assets/blog/notion-youtube-a-powerful-combination-for-productivity/8.jpg)
 
 I don't want to clutter my other views with things that I'm not actively working on. So when I have a new idea for content, I just type in the title and set the status to “Idea”.
 
 When it's time to take an idea and start working on it, I can either change the status, or I can switch to the “Board – Status View”. This is like a Trello Kanban view. Here I can drag and drop projects into the appropriate status.
 
-![Notion Screenshot](/assets/blog/notion-youtube-a-powerful-combination-for-productivity/9.jpg)
+![Notion Screenshot](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/public/assets/blog/notion-youtube-a-powerful-combination-for-productivity/9.jpg)
 
 We can also look at the project with a calendar view. This will show us when the project was published or is scheduled to be published.
 
-![Notion Screenshot](/assets/blog/notion-youtube-a-powerful-combination-for-productivity/10.jpg)
+![Notion Screenshot](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/public/assets/blog/notion-youtube-a-powerful-combination-for-productivity/10.jpg)
 
 And the last view is my active view. This filters out the ideas and published projects to truly only show active projects.
 
@@ -108,7 +108,7 @@ The video numbering is very important to my process. Like I was saying before, I
 
 Let's open up this project and we can “open as page” to make it full screen. Here we have access to the same data that shows up in the table views along with some additional stuff.
 
-![Notion Screenshot](/assets/blog/notion-youtube-a-powerful-combination-for-productivity/11.jpg)
+![Notion Screenshot](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/public/assets/blog/notion-youtube-a-powerful-combination-for-productivity/11.jpg)
 
 There is a URL field, which I use for the YouTube video URL. Then we have the description, which would be the YouTube description.
 
@@ -120,11 +120,11 @@ Then we have the outline/script. So if you have noticed, I have been referring t
 
 Let me step you through the script creation process. Notice that this opens a new page. So it's a page within a page. And we have some breadcrumbs here at the top.
 
-![Notion Screenshot](/assets/blog/notion-youtube-a-powerful-combination-for-productivity/12.jpg)
+![Notion Screenshot](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/public/assets/blog/notion-youtube-a-powerful-combination-for-productivity/12.jpg)
 
 Notion uses a hybrid markdown system. If I press forward slash `/`, you can see all of the options. Basic blocks, inline, database, media, embeds, etc. So I start out with my headings, just like creating an outline. So I'll type `/2` and that will create an H2 block. And I'll keep creating all of the basic headlines that I want to cover. Then I'll start filling them in. By default, each line will be a text block but we can change it by pressing `/` and selecting the block we want.
 
-![Notion Screenshot](/assets/blog/notion-youtube-a-powerful-combination-for-productivity/13.jpg)
+![Notion Screenshot](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/public/assets/blog/notion-youtube-a-powerful-combination-for-productivity/13.jpg)
 
 I use code blocks often. It has syntax highlighting and you can pick the appropriate programming language.
 
@@ -136,7 +136,7 @@ So now I'll record the video, post this on my personal blog and sometimes on oth
 
 You will have to sign up for a Notion account, which again is FREE. When you click on the link, this is what you will see.
 
-![Notion Screenshot](/assets/blog/notion-youtube-a-powerful-combination-for-productivity/14.jpg)
+![Notion Screenshot](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/public/assets/blog/notion-youtube-a-powerful-combination-for-productivity/14.jpg)
 
 Just click “Duplicate” and it will copy the template into Notion and you can customize it and start using it however you would like.
 
@@ -152,6 +152,6 @@ Check out the full video on my YouTube channel.
 
 Help me out by liking this video and [subscribing](https://www.youtube.com/codeSTACKr/?,sub_confirmation=1) if you haven't already.
 
-<YouTubeEmbed title='Notion + YouTube - A Powerful Combination for Productivity' id='gZPxd2PXyII' />
+{% youtube gZPxd2PXyII %}
 
 ## **Thanks for reading!**

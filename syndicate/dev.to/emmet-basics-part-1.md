@@ -12,7 +12,7 @@ author:
   picture: "/assets/blog/authors/jesse.png"
 ---
 
-<base target="_blank" rel="noreferrer nofollow" />
+
 
 # Emmet Part 1 - Basics
 
@@ -20,7 +20,7 @@ Emmet is a FREE plugin for many popular code editors which helps you write HTML 
 
 When you start typing an Emmet abbreviation, you will see the abbreviation displayed in the suggestion list.
 
-![Emmet In Action](/assets/blog/emmet-basics-part-1/demo.gif)
+![Emmet In Action](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/public/assets/blog/emmet-basics-part-1/demo.gif)
 
 In this post, we cover the following topics:  
 📌 Tags  
@@ -40,33 +40,33 @@ Basic abbreviations can be used to quickly create HTML tags.
 
 > `div`
 
-<CH.Code>
+
 
 ```html
 <div></div>
 ```
 
-</CH.Code>
+
 
 > `p`
 
-<CH.Code>
+
 
 ```html
 <p></p>
 ```
 
-</CH.Code>
+
 
 > `h1`
 
-<CH.Code>
+
 
 ```html
 <h1></h1>
 ```
 
-</CH.Code>
+
 
 ## Siblings
 
@@ -74,13 +74,13 @@ To create a set of HTML tags as siblings just use `+` in between each abbreviati
 
 > `hdr+sect+ftr`
 
-<CH.Code>
+
 
 ```html
 <header></header> <section></section> <footer></footer>
 ```
 
-</CH.Code>
+
 
 ## Children
 
@@ -88,13 +88,13 @@ Child elements can be created by using `>` in between each abbreviation.
 
 > `sect>ul>li`
 
-<CH.Code>
+
 
 ```html
 <section> <ul> <li></li> </ul> </section>
 ```
 
-</CH.Code>
+
 
 ## Class
 
@@ -102,13 +102,13 @@ In order to create elements with classes just append the class to the abbreviati
 
 > `h1.center`
 
-<CH.Code>
+
 
 ```
 <h1 class="center"></h1>
 ```
 
-</CH.Code>
+
 
 ## Id
 
@@ -116,13 +116,13 @@ To add an Id to an element, append the Id to the abbreviation using `#`
 
 > `h1#header`
 
-<CH.Code>
+
 
 ```html
 <h1 id="header"></h1>
 ```
 
-</CH.Code>
+
 
 ## Id & Class
 
@@ -130,13 +130,13 @@ You can include multiple attributes on an element abbreviation.
 
 > `h1#header.center`
 
-<CH.Code>
+
 
 ```html
 <h1 id="header" class="center"></h1>
 ```
 
-</CH.Code>
+
 
 ## Content
 
@@ -144,13 +144,13 @@ Text content of an element can be included by wrapping the content with `{ }`
 
 > `p{This is a paragraph.}`
 
-<CH.Code>
+
 
 ```html
 <p>This is a paragraph.</p>
 ```
 
-</CH.Code>
+
 
 ## Multiply
 
@@ -158,13 +158,13 @@ We can create multiple elements by multiplying them using `*`
 
 > `ul>li\*4`
 
-<CH.Code>
+
 
 ```html
 <ul> <li></li> <li></li> <li></li> <li></li> </ul>
 ```
 
-</CH.Code>
+
 
 ---
 
@@ -172,6 +172,6 @@ Check out the full video on my YouTube channel.
 
 Help me out by liking this video and [subscribing](https://www.youtube.com/codeSTACKr/?,sub_confirmation=1) if you haven't already.
 
-<YouTubeEmbed title='Emmet = Faster HTML &amp; CSS Workflow!' id='EzGWXTASWWo' />
+{% youtube EzGWXTASWWo %}
 
 ## **Thanks for reading!**

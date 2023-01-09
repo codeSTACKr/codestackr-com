@@ -12,7 +12,7 @@ author:
   picture: "/assets/blog/authors/jesse.png"
 ---
 
-<base target="_blank" rel="noreferrer nofollow" />
+
 
 # Simple Dark/Light Mode Theme Toggle (CSS ONLY) | UI Design
 
@@ -26,7 +26,7 @@ The example that we'll build today is probably the easiest way to implement a mo
 
 We'll start with the HTML:
 
-<CH.Code>
+
 
 ```html index.html
 <input type="checkbox" class="checkbox" id="check" />
@@ -43,7 +43,7 @@ We'll start with the HTML:
 </div>
 ```
 
-</CH.Code>
+
 
 The HTML is very simple, but pay attention to the way in which it is layed out. We start with the input so that we can use CSS selectors to target all of the elements after it. This is very important.
 
@@ -53,7 +53,7 @@ This example uses FontAwesome, so be sure to include the \`.css\` CDN.
 
 We'll start with some custom properties and resets:
 
-<CH.Code>
+
 
 ```css global.css
 :root {
@@ -74,13 +74,13 @@ We'll start with some custom properties and resets:
 }
 ```
 
-</CH.Code>
+
 
 We'll be manipulating the custom properties later on by using the checkbox.
 
 The content class will be our main "wrapper" for everything.
 
-<CH.Code>
+
 
 ```css global.css
 .content {
@@ -94,11 +94,11 @@ The content class will be our main "wrapper" for everything.
 }
 ```
 
-</CH.Code>
+
 
 Next, we'll hide the checkbox. Since we linked the \`label\` to the checkbox, we will be able to toggle it by clicking on the label.
 
-<CH.Code>
+
 
 ```css global.css
 .checkbox {
@@ -106,11 +106,11 @@ Next, we'll hide the checkbox. Since we linked the \`label\` to the checkbox, we
 }
 ```
 
-</CH.Code>
+
 
 Now we'll style the label:
 
-<CH.Code>
+
 
 ```css global.css
 .label {
@@ -150,13 +150,13 @@ Now we'll style the label:
 }
 ```
 
-</CH.Code>
+
 
 We are setting up transitions for the colors and position of the ball because we will be changing those later on. We want these to have smooth animations.
 
 Next, the background image will change dependent on the theme. Here are the styles for the images:
 
-<CH.Code>
+
 
 ```css global.css
 .image {
@@ -184,11 +184,11 @@ Next, the background image will change dependent on the theme. Here are the styl
 }
 ```
 
-</CH.Code>
+
 
 And lastly, we'll set the actions that will occur when the checkbox is checked:
 
-<CH.Code>
+
 
 ```css global.css
 .checkbox:checked + .content .label .ball {
@@ -203,7 +203,7 @@ And lastly, we'll set the actions that will occur when the checkbox is checked:
 }
 ```
 
-</CH.Code>
+
 
 ## That's it!
 
@@ -219,6 +219,6 @@ Check out the full video on my YouTube channel.
 
 Help me out by liking this video and [subscribing](https://www.youtube.com/codeSTACKr/?sub_confirmation=1) if you haven’t already.
 
-<YouTubeEmbed title="Simple Dark/Light Mode Theme Toggle (CSS ONLY) | UI Design" id="b4FBTr5pSgw" />
+{% youtube b4FBTr5pSgw %}
 
 ## **Thanks for reading!**

@@ -12,7 +12,7 @@ author:
   picture: "/assets/blog/authors/jesse.png"
 ---
 
-<base target="_blank" rel="noreferrer nofollow" />
+
 
 # Emmet Part 2 - Advanced
 
@@ -35,7 +35,7 @@ You can create a basic HTML boilerplate easily!
 
 > `!`
 
-<CH.Code>
+
 
 ```html results.html
 <!DOCTYPE html>
@@ -50,7 +50,7 @@ You can create a basic HTML boilerplate easily!
 </html>
 ```
 
-</CH.Code>
+
 
 ## Climb Up
 
@@ -58,7 +58,7 @@ With Emmet we can easily traverse multiple levels. Here we can climb up a level 
 
 > `div+div>p>span+em^bq`
 
-<CH.Code>
+
 
 ```html results.html
 <div></div>
@@ -68,7 +68,7 @@ With Emmet we can easily traverse multiple levels. Here we can climb up a level 
 </div>
 ```
 
-</CH.Code>
+
 
 ## Grouping
 
@@ -76,7 +76,7 @@ We can achieve something similar by using grouping. To group, surround parts of 
 
 > `div>(hdr>ul>li\*2>a)+ftr>p`
 
-<CH.Code>
+
 
 ```html results.html
 <div>
@@ -92,7 +92,7 @@ We can achieve something similar by using grouping. To group, surround parts of 
 </div>
 ```
 
-</CH.Code>
+
 
 ## Attributes
 
@@ -100,13 +100,13 @@ We can also easily add attributes to any tag using square brackets.
 
 > `p[title="Hello World"]`
 
-<CH.Code>
+
 
 ```html results.html
 <p title="Hello World"></p>
 ```
 
-</CH.Code>
+
 
 ## Item Numbering
 
@@ -114,7 +114,7 @@ When multiplying items, an index is tracked. We can use the index by inserting t
 
 > `h$[title=item$]{Header $}*3`
 
-<CH.Code>
+
 
 ```html results.html
 <h1 title="item1">Header 1</h1>
@@ -122,7 +122,7 @@ When multiplying items, an index is tracked. We can use the index by inserting t
 <h3 title="item3">Header 3</h3>
 ```
 
-</CH.Code>
+
 
 ## Implicit Tags
 
@@ -130,7 +130,7 @@ tags do not always need to be used. In some cases they are implied. Here we crea
 
 > `table>.row>.col`
 
-<CH.Code>
+
 
 ```html results.html
 <table>
@@ -140,7 +140,7 @@ tags do not always need to be used. In some cases they are implied. Here we crea
 </table>
 ```
 
-</CH.Code>
+
 
 ## CSS Sneak Peek
 
@@ -152,7 +152,7 @@ Emmet can be used for CSS too! Part 3 will be all about fast CSS workflows.
 > `pos:r`<br />
 > `pos:f`<br />
 
-<CH.Code>
+
 
 ```css results.css
 position:relative;
@@ -162,7 +162,7 @@ position:relative;
 position:fixed;
 ```
 
-</CH.Code>
+
 
 Part 3 coming very soon! 
 
@@ -172,6 +172,6 @@ Check out the full video on my YouTube channel.
 
 Help me out by liking this video and [subscribing](https://www.youtube.com/codeSTACKr/?,sub_confirmation=1) if you haven't already.
 
-<YouTubeEmbed title='Emmet Part 2 - Advanced' id='EzGWXTASWWo' />
+{% youtube EzGWXTASWWo %}
 
 ## **Thanks for reading!**

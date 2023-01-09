@@ -12,7 +12,7 @@ author:
   picture: "/assets/blog/authors/jesse.png"
 ---
 
-<base target="_blank" rel="noreferrer nofollow" />
+
 
 # 5 Steps to THINK in React
 
@@ -26,11 +26,11 @@ One of the great things about React is the way it makes you think about apps as 
 
 Many times you may get a mock-up from a designer. Then you'll get the JSON API from your back-end developer. Here's what the mock-up looks like:
 
-![Mock-Up](/assets/blog/5-steps-to-think-in-react/1.jpg)
+![Mock-Up](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/public/assets/blog/5-steps-to-think-in-react/1.jpg)
 
 And here's what the JSON data looks like:
 
-<CH.Code>
+
 
 ```json
 const PRODUCTS = [
@@ -43,7 +43,7 @@ const PRODUCTS = [
 ];
 ```
 
-</CH.Code>
+
 
 
 ## Step 1: Break The UI Into Components
@@ -54,7 +54,7 @@ We need to figure out what should be its own component. The best way to do this 
 
 You'll generally be working with JSON data. So separate your UI into components, where each component matches one piece of your data model.
 
-![App Break-down](/assets/blog/5-steps-to-think-in-react/2.png)
+![App Break-down](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/public/assets/blog/5-steps-to-think-in-react/2.png)
 
 Here we see the mock-up broken down to five components.
 
@@ -80,7 +80,7 @@ We can either start at the top of the hierarchy with `FilterableProductTable` an
 
 We're going to start from the bottom with the `ProductRow`. So we'll create a functional component which will be passed _props_. The _props_ will include the product and all of its data. So we'll first get the product. Then we'll get the name, but remember that in our mock-up there were names that were colored red, and this is because these products are not in-stock. So on the product, we will need a `stocked` property, then we can use a ternary operator to decide whether we need to add custom styling to the name. And finally, we will return a table row with the products name and price.
 
-<CH.Code>
+
 
 ```jsx
 function ProductRow(props) {
@@ -100,12 +100,12 @@ function ProductRow(props) {
 }
 ```
 
-</CH.Code>
+
 
 
 Next, we'll build the `ProductCategoryRow` component. This will also be passed _props_. The _prop_ that we will need here is the category of the product. Then we will return a table row with the category spanning two columns.
 
-<CH.Code>
+
 
 ```jsx
 function ProductCategoryRow(props) {
@@ -120,12 +120,12 @@ function ProductCategoryRow(props) {
 }
 ```
 
-</CH.Code>
+
 
 
 Now for the `ProductTable`, which will again be passed _props_, we'll need to keep track of the rows and the last category. We'll loop through each product which is passed from our _props_ and if the product category is not equal to the last products category then we will add a new category row using our `ProductCategoryRow` component. We'll pass to that component the category and use the category as the key. If the category was already used then this will not be called. Next, we'll push the product to the `ProductRow` component, passing the product, and using the name as the key. Now we'll set the `lastCategory` to equal the current products category. Lastly, we will return the table with the `rows`.
 
-<CH.Code>
+
 
 ```jsx
 function ProductTable(props) {
@@ -162,12 +162,12 @@ function ProductTable(props) {
 }
 ```
 
-</CH.Code>
+
 
 
 Next we'll build the `SearchBar` component. This will return a form with a text input and a checkbox input.
 
-<CH.Code>
+
 
 ```jsx
 function SearchBar() {
@@ -182,12 +182,12 @@ function SearchBar() {
 }
 ```
 
-</CH.Code>
+
 
 
 And finally, we will create the `FilterableProductTable` component which will simply return the `SearchBar` and `ProductTable` components. We'll also pass the products to the `ProductTable` component.
 
-<CH.Code>
+
 
 ```jsx
 function FilterableProductTable(props) {
@@ -200,12 +200,12 @@ function FilterableProductTable(props) {
 }
 ```
 
-</CH.Code>
+
 
 
 And, of course, we'll render these to the DOM passing our JSON data to the `FilterableProductTable` component.
 
-<CH.Code>
+
 
 ```jsx
 ReactDOM.render(
@@ -214,12 +214,12 @@ ReactDOM.render(
 );
 ```
 
-</CH.Code>
+
 
 
 Now we should see a static representation of the app.
 
-![Static Representation of the App](/assets/blog/5-steps-to-think-in-react/1.jpg)
+![Static Representation of the App](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/public/assets/blog/5-steps-to-think-in-react/1.jpg)
 
 Step 2 Full Code: [https://codepen.io/codeSTACKr/pen/QWyvjMW](https://codepen.io/codeSTACKr/pen/QWyvjMW)
 
@@ -270,7 +270,7 @@ Let's run through this for our example:
 
 Awesome! Now that our state lives in `FilterableProductTable`, we'll use the `useState` hook to create `filterText` and `inStockOnly` states. Then we'll pass `filterText` and `inStockOnly` to `ProductTable` and `SearchBar` as _props_.
 
-<CH.Code>
+
 
 ```jsx
 function FilterableProductTable(props) {
@@ -293,12 +293,12 @@ function FilterableProductTable(props) {
 }
 ```
 
-</CH.Code>
+
 
 
 Finally, use these props to filter the rows in `ProductTable` and set the values of the form fields in `SearchBar`.
 
-<CH.Code>
+
 
 ```jsx
 function SearchBar(props) {
@@ -325,12 +325,12 @@ function SearchBar(props) {
 }
 ```
 
-</CH.Code>
+
 
 
 Now we have an idea of how this example should work. We could set filterText to "ball" in our FilterableProductTable component state and refresh the app. The table should show the updated list of products.
 
-![App filtered to "ball"](/assets/blog/5-steps-to-think-in-react/3.jpg)
+![App filtered to "ball"](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/public/assets/blog/5-steps-to-think-in-react/3.jpg)
 
 Step 4 Full Code: [https://codepen.io/codeSTACKr/pen/PoZmPRg](https://codepen.io/codeSTACKr/pen/PoZmPRg)
 
@@ -342,7 +342,7 @@ If you try to type in the input or check the box, nothing happens. That is by de
 
 So, we need to enable the user to make changes to the form. These changes need to update our state. So we'll need to pass the `useState` hooks setter function to `SearchBar` that will fire whenever the state should be updated.
 
-<CH.Code>
+
 
 ```jsx
 function FilterableProductTable(props) {
@@ -367,12 +367,12 @@ function FilterableProductTable(props) {
 }
 ```
 
-</CH.Code>
+
 
 
 We can use onChange on the inputs to be notified of the change. The states setter function, passed by FilterableProductTable will update the app.
 
-<CH.Code>
+
 
 ```jsx
 function SearchBar(props) {
@@ -401,7 +401,7 @@ function SearchBar(props) {
 }
 ```
 
-</CH.Code>
+
 
 
 Step 5 Full Code: [https://codepen.io/codeSTACKr/pen/mdVmezo](https://codepen.io/codeSTACKr/pen/mdVmezo)
@@ -412,7 +412,7 @@ As a bonus, we are going to style this application using Tailwind CSS. Now, I'm 
 
 Let's start in our `FilterableProductTable` component. On the main `div` we'll add the classes: `flex flex-col pt-10 items-center min-h-screen w-full bg-gray-900 text-white`. Then on our `h1` we'll add the classes: `text-3xl font-bold mb-5`.
 
-<CH.Code>
+
 
 ```jsx
 function FilterableProductTable(props) {
@@ -438,12 +438,12 @@ function FilterableProductTable(props) {
 }
 ```
 
-</CH.Code>
+
 
 
 Now for the `SearchBar` component, we'll add these classes to the text input: `shadow appearance-none border-none rounded w-full py-2 px-3 mb-4 bg-gray-700 leading-tight focus:outline-none focus:shadow-outline`. For the checkbox input we'll add: `mr-2 leading-tight`. And lastly, we'll wrap the checkbox text in a span with the class of `text-sm`.
 
-<CH.Code>
+
 
 ```jsx
 function SearchBar(props) {
@@ -475,12 +475,12 @@ function SearchBar(props) {
 }
 ```
 
-</CH.Code>
+
 
 
 Next, the `ProductTable` component table will get these classes: `table-fixed lg:w-1/3 md:w-1/3 sm:w-1/2 my-5`. The table rows will get: `border-b border-t border-gray-700`. The name column will get these classes: `w-1/2 px-4 py-2 text-left`. Then the price column will be very similar, only changing the text alignment: `w-1/2 px-4 py-2 text-right`.
 
-<CH.Code>
+
 
 ```jsx
 function ProductTable(props) {
@@ -528,12 +528,12 @@ function ProductTable(props) {
 }
 ```
 
-</CH.Code>
+
 
 
 Now for the `ProductCategoryRow` component. We'll add these classes to the table header: `text-orange-600 bg-gray-800 border-b border-gray-700 py-2`.
 
-<CH.Code>
+
 
 ```jsx
 function ProductCategoryRow(props) {
@@ -548,12 +548,12 @@ function ProductCategoryRow(props) {
 }
 ```
 
-</CH.Code>
+
 
 
 And lastly, the `ProductRow` components table row will get: `border-b border-gray-700`. The name column will get: `p-1`. And the price column will get: `p-1 text-right`.
 
-<CH.Code>
+
 
 ```jsx
 function ProductRow(props) {
@@ -573,7 +573,7 @@ function ProductRow(props) {
 }
 ```
 
-</CH.Code>
+
 
 
 Tailwind CSS Styled Code: [https://codepen.io/codeSTACKr/pen/oNbWbNQ](https://codepen.io/codeSTACKr/pen/oNbWbNQ)
@@ -590,6 +590,6 @@ Check out the full video on my YouTube channel.
 
 Help me out by liking this video and [subscribing](https://www.youtube.com/codeSTACKr/?,sub_confirmation=1) if you haven't already.
 
-<YouTubeEmbed title='5 Steps to THINK in React' id='YJPSR9dEQV8' />
+%[https://youtu.be/YJPSR9dEQV8]
 
 ## **Thanks for reading!**

@@ -12,13 +12,13 @@ author:
   picture: "/assets/blog/authors/jesse.png"
 ---
 
-<base target="_blank" rel="noreferrer nofollow" />
+
 
 # Deno 1.0 Released! REST API Example
 
 Deno has officially released and version 1.0.0 is now available! If you have no idea what Deno is, check out this video where I go through all of the details.
 
-<YouTubeEmbed title='Deno: Node.js Killer? Introduction &amp; Tutorial | From Creator Ryan Dahl | TypeScript/JS' id='3Vt_cjgojDI' />
+%[https://youtu.be/3Vt_cjgojDI]
 
 In this article, I want to show you how to create a simple, easy REST API using Deno. My good friend Flavio put together an awesome [blog](https://flaviocopes.com/deno/) on his site that outlines all the details on Deno. I'm going to use one of his examples where he uses Oak and Deno to create a simple REST API.
 
@@ -45,43 +45,43 @@ Installation is pretty easy.
 
 Shell:
 
-<CH.Code>
+
 
 ```bash
 `curl -fsSL <https://deno.land/x/install/install.sh> | sh`
 ```
 
-</CH.Code>
+
 
 PowerShell:
 
-<CH.Code>
+
 
 ```bash
 `iwr <https://deno.land/x/install/install.ps1> -useb | iex`
 ```
 
-</CH.Code>
+
 
 Homebrew (macOS or Linux):
 
-<CH.Code>
+
 
 ```
 `brew install deno`
 ```
 
-</CH.Code>
+
 
 Chocolatey (Windows):
 
-<CH.Code>
+
 
 ```bash
 `choco install deno`
 ```
 
-</CH.Code>
+
 
 Now we can check to make sure it's installed and working. Just type `deno --version`
 
@@ -89,17 +89,17 @@ Now we can check to make sure it's installed and working. Just type `deno --vers
 
 Now we'll create a new file, `app.js`, and we'll import the `Application` and `Router` objects from Oak.
 
-<CH.Code>
+
 
 ```js
 `import { Application, Router } from '<https://deno.land/x/oak/mod.ts>'`
 ```
 
-</CH.Code>
+
 
 Now let's add some environmental variables for `PORT` and `HOST`:
 
-<CH.Code>
+
 
 ```js
 const env = Deno.env.toObject()
@@ -107,11 +107,11 @@ const PORT = env.PORT || 4000
 const HOST = env.HOST || '127.0.0.1'
 ```
 
-</CH.Code>
+
 
 So, the app is going to run on localhost:4000. Now we'll create the Oak application:
 
-<CH.Code>
+
 
 ```js
 const router = new Router()
@@ -126,7 +126,7 @@ console.log(`Listening on port ${PORT}...`)
 await app.listen(`${HOST}:${PORT}`)
 ```
 
-</CH.Code>
+
 
 
 So now we should have an app listening. It doesn't do anything yet though.
@@ -138,13 +138,13 @@ In order to run this, we need to include two flags. This is because by default D
 -   `--allow-env` gives access to the environmental variables
 -   `--allow-net` gives access to the network
 
-<CH.Code>
+
 
 ```bash
 `deno run --allow-env --allow-net app.js`
 ```
 
-</CH.Code>
+
 
 During the first run, Deno will download and cache all of the dependencies. The following times you run the app, Deno will skip the downloads because those packages are already cached. Just a reminder, since all of this is new, Deno does not store the packages inside a `node_modules` folder. They are downloaded and cached globally for all projects.
 
@@ -154,7 +154,7 @@ So now it's listening on port 4000, but again, it doesn't do anything at this po
 
 Now we'll add the database, which in this example is just going to be an array that will be stored in memory. So, if we restart the server, any changes to the database will be lost. In an actual application you would use a real database, such as PostgreSQL or Mongo.
 
-<CH.Code>
+
 
 ```js
 let dogs = [
@@ -169,13 +169,13 @@ let dogs = [
 ]
 ```
 
-</CH.Code>
+
 
 ## API Frame
 
 So now we'll actually start implementing the API. We will have several functions that will be invoked dependent on the endpoint.
 
-<CH.Code>
+
 
 ```js
 const router = new Router()
@@ -188,7 +188,7 @@ router
   .delete('/dogs/:name', removeDog)
 ```
 
-</CH.Code>
+
 
 Here we are defining what will happen at each endpoint.
 
@@ -196,23 +196,23 @@ Here we are defining what will happen at each endpoint.
 
 We'll implement each of these actions starting with getting all dogs. This will return a JSON object with a list of all of the dogs.
 
-<CH.Code>
+
 
 ```js
 export const getDogs = ({ response }) => response.body = dogs
 ```
 
-</CH.Code>
+
 
 Let's save the app and restart the server. Now we can test the API in Insomnia. So we'll `GET` from localhost:4000/dogs, and we should see the full list of dogs.
 
-![Get All Dogs](/assets/blog/deno-rest-api/1.jpg)
+![Get All Dogs](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/public/assets/blog/deno-rest-api/1.jpg)
 
 ## Get Single Dog
 
 Now we'll write the function to retrieve a single dog by name:
 
-<CH.Code>
+
 
 ```js
 export const getDog = ({ params, response }) => {
@@ -228,19 +228,19 @@ export const getDog = ({ params, response }) => {
 }
 ```
 
-</CH.Code>
+
 
 Now we'll save and restart the server again. In Insomnia, We'll be doing a `Get` request again, but this time we'll include a dog name in the URL. Let's search for “Roger”. This seems to be working just fine:
 
-![Get Single Dog](/assets/blog/deno-rest-api/2.jpg)
+![Get Single Dog](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/public/assets/blog/deno-rest-api/2.jpg)
 
 But if we search for “roger”, with all lowercase, you'll see that we get an error message that the dog could not be found.
 
-![Dog Not Found](/assets/blog/deno-rest-api/3.jpg)
+![Dog Not Found](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/public/assets/blog/deno-rest-api/3.jpg)
 
 So in order to fix this we simply need to convert each name to lowercase before comparing them.
 
-<CH.Code>
+
 
 ```js
 export const getDog = ({ params, response }) => {
@@ -257,17 +257,17 @@ export const getDog = ({ params, response }) => {
 }
 ```
 
-</CH.Code>
+
 
 Now it's not case sensitive:
 
-![Dog Found](/assets/blog/deno-rest-api/4.jpg)
+![Dog Found](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/public/assets/blog/deno-rest-api/4.jpg)
 
 ## Add A New Dog
 
 Now let's implement to new dog function.
 
-<CH.Code>
+
 
 ```js
 export const addDog = async ({ request, response }) => {
@@ -280,23 +280,23 @@ export const addDog = async ({ request, response }) => {
 }
 ```
 
-</CH.Code>
+
 
 Notice here that we are using `async / await`. Since we are going to be passing data to the server, we need to wait on that response. Again, we'll save and restart the server.
 
 Now let's test this out in Insomnia. We will now be using the `POST` method. And we'll need to include the JSON data that we are passing to the server.
 
-![Add new dog](/assets/blog/deno-rest-api/5.jpg)
+![Add new dog](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/public/assets/blog/deno-rest-api/5.jpg)
 
 Now if you check all of our dogs we'll see that we have a new dog added.
 
-![After new dog added](/assets/blog/deno-rest-api/6.jpg)
+![After new dog added](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/public/assets/blog/deno-rest-api/6.jpg)
 
 ## Update A Dog
 
 Now we'll implement the update function.
 
-<CH.Code>
+
 
 ```js
 export const updateDog = async ({ params, request, response }) => {
@@ -317,23 +317,23 @@ export const updateDog = async ({ params, request, response }) => {
 }
 ```
 
-</CH.Code>
+
 
 Again, we will need to wait for the response. So we'll set this up as an `async` function. And since we only have the dog's age, that's all that we are worried about updating. Let's save and restart the server again.
 
 Back to Insomnia, we'll be using the `PUT` method this time. Let's enter our JSON data and dog name that we want to update.
 
-![Update dog](/assets/blog/deno-rest-api/7.jpg)
+![Update dog](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/public/assets/blog/deno-rest-api/7.jpg)
 
 Now we can look at our full list and we'll see that the update has occurred.
 
-![After dog update](/assets/blog/deno-rest-api/8.jpg)
+![After dog update](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/public/assets/blog/deno-rest-api/8.jpg)
 
 ## Delete A Dog
 
 Here's our last function to implement. It looks like one of the dogs have to go. We'll set up the delete function:
 
-<CH.Code>
+
 
 ```js
 export const removeDog = ({ params, response }) => {
@@ -352,15 +352,15 @@ export const removeDog = ({ params, response }) => {
 }
 ```
 
-</CH.Code>
+
 
 Let's save and restart the server one last time. It looks like Roger is the oldest dog. I guess he has to go. In Insomnia, we are using the `DELETE` method this time and entering the dog's name in the URL.
 
-![Delete Dog](/assets/blog/deno-rest-api/9.jpg)
+![Delete Dog](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/public/assets/blog/deno-rest-api/9.jpg)
 
 And we'll check the entire list. Roger is gone 🙁
 
-![After dog delete](/assets/blog/deno-rest-api/10.jpg)
+![After dog delete](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/public/assets/blog/deno-rest-api/10.jpg)
 
 ## Final Thoughts
 
@@ -372,6 +372,6 @@ Check out the full video where we build this API using Deno on my YouTube channe
 
 Help me out by liking this video and [subscribing](https://www.youtube.com/codeSTACKr/?,sub_confirmation=1) if you haven't already.
 
-<YouTubeEmbed title='Deno 1.0 Released! REST API Example' id='Q7RJzoRtCb0' />
+%[https://youtu.be/Q7RJzoRtCb0]
 
 ## **Thanks for reading!**
