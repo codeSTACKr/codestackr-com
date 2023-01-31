@@ -12,7 +12,7 @@ author:
   picture: "/assets/blog/authors/jesse.png"
 ---
 
-<base target="_blank" rel="noreferrer nofollow" />
+
 
 # Web Development Roadmap 2023
 
@@ -20,7 +20,7 @@ Do you want to become a full-stack web developer in 2023? The demand for program
 
 ## Intro
 
-![Spaghetti Roadmap Diagram](/assets/blog/web-development-roadmap-2023/1.png)
+![Spaghetti Roadmap Diagram](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/public/assets/blog/web-development-roadmap-2023/1.png)
 
 You've probably seen road maps like these, I've even created one before. These crazy spaghetti diagrams of hundreds of technologies. These are packed full of info but mostly overwhelm and confused people.
 
@@ -40,7 +40,7 @@ So, let's get into it...
 
 > If you prefer to watch, here's the video version:
 > 
-> <YouTubeEmbed title='Learn THESE Technologies to become a Web Developer in 2023!' id='8aosxBJQdVc' />
+> {% youtube 8aosxBJQdVc %}
 
 ## Top Skill to Learn
 
@@ -366,6 +366,8 @@ Check out the full video on my YouTube channel.
 
 Help me out by liking this video and [subscribing](https://www.youtube.com/codeSTACKr/?,sub_confirmation=1) if you haven't already.
 
-<YouTubeEmbed title='Learn THESE Technologies to become a Web Developer in 2023!' id='8aosxBJQdVc' />
+{% youtube 8aosxBJQdVc %}
 
 ## **Thanks for reading!**
+
+Say Hello! [YouTube](https://youtube.com/codeSTACKr) | [Twitter](https://twitter.com/codeSTACKr) | [Instagram](https://www.instagram.com/codeSTACKr) | [TikTok](https://www.tiktok.com/@codestackr)

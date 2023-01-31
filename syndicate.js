@@ -3,6 +3,9 @@ const path = require( 'path' );
 const matter = require('gray-matter')
 
 const readDir = '_posts';
+const footer = `
+Say Hello! [YouTube](https://youtube.com/codeSTACKr) | [Twitter](https://twitter.com/codeSTACKr) | [Instagram](https://www.instagram.com/codeSTACKr) | [TikTok](https://www.tiktok.com/@codestackr)
+`;
 
 (async ()=>{
   try {
@@ -24,6 +27,8 @@ const readDir = '_posts';
                 .replace(/<base.*?>/g, '')
                 .replace(/(!\[.*?\()(.*)(\))/g, '$1https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/public$2$3')
                 .replace(/<YouTubeEmbed.*?id=['|"](.*?)['|"].*>/g, '{% youtube $1 %}')
+
+              fileContents += footer;
             
               await fs.promises.writeFile(newPath_devto, fileContents);
   
@@ -44,6 +49,8 @@ const readDir = '_posts';
                 .replace(/<base.*?>/g, '')
                 .replace(/(!\[.*?\()(.*)(\))/g, '$1https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/public$2$3')
                 .replace(/<YouTubeEmbed.*?id=['|"](.*?)['|"].*>/g, '%[https://youtu.be/$1]')
+
+              fileContents += footer;
             
               await fs.promises.writeFile(newPath_hashnode, fileContents);
   
