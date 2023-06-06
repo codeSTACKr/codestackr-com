@@ -30,3 +30,27 @@
 .prose code::after {
   content: ""
 }
+
+.prose figure {
+  margin: 0;
+  margin-left: 3rem;
+}
+
+.prose figcaption {
+  text-align: center;
+  font-size: 0.75rem;
+  margin-top: 0.5rem;
+}
+.prose figcaption a {
+  font-size: 0.75rem;
+  text-align: center;
+  color: #7f8898;
+}
+
+.special_list li {
+  list-style: "👉";
+}
+
+.special_list li:not(:first-of-type) {
+  margin-top: 2rem;
+}
