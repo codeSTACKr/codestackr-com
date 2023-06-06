@@ -12,6 +12,7 @@ import { serialize } from "next-mdx-remote/serialize";
 import { remarkCodeHike } from "@code-hike/mdx";
 import theme from "../../theme/codestackr.json";
 import SideInfo from "../../components/SideInfo";
+import imageSize from "rehype-img-size";
 
 export default function Post({ post, morePosts, preview }) {
   const router = useRouter();
@@ -71,6 +72,7 @@ export async function getStaticProps({ params }) {
       development: false,
       remarkPlugins: [[remarkCodeHike, { autoImport: false, theme, showCopyButton: true }]],
       useDynamicImport: true,
+      rehypePlugins: [[imageSize, { dir: "public" }]],
     },
   });
 

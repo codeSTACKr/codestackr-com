@@ -1,8 +1,9 @@
 import { CH } from "@code-hike/mdx/components"
 import { MDXRemote } from 'next-mdx-remote'
 import YouTubeEmbed from "./YouTubeEmbed";
+import Image from "next/image";
 
-const components = { CH, YouTubeEmbed }
+const components = { CH, YouTubeEmbed, img: (props) => <Image {...props} layout="responsive" loading="lazy"  /> }
 
 const PostBody = ({ content }) => {
   return (
