@@ -1,0 +1,107 @@
+---
+title: "What just happened with TypeScript?"
+excerpt: "An industry-wide shift is underway, as application delivery and developer velocity overtake model training as the key drivers of AI success. For over a decade, Python has been the dominant language of artificial intelligence and machine learning. But a major shift is underway. The latest data from GitHub's 2025 Octoverse report reveals that TypeScript has officially overtaken Python as the most-used language on the platform."
+description: "An industry-wide shift is underway, as application delivery and developer velocity overtake model training as the key drivers of AI success. For over a decade, Python has been the dominant language of artificial intelligence and machine learning. But a major shift is underway. The latest data from GitHub's 2025 Octoverse report reveals that TypeScript has officially overtaken Python as the most-used language on the platform."
+coverImage: "/assets/blog/what-just-happened-with-typescript/cover.jpg"
+date: "2025-11-22T15:00:28.000Z"
+tags: "typescript, javascript, ai, machine learning, data science"
+subtitle: "TypeScript has officially overtaken Python as the most-used language on GitHub."
+canonical: "https://codestackr.com/blog/what-just-happened-with-typescript" 
+author:
+  name: "Jesse Hall"
+  picture: "/assets/blog/authors/jesse.png"
+---
+
+
+
+# What just happened with TypeScript?
+
+*An industry-wide shift is underway, as application delivery and developer velocity overtake model training as the key drivers of AI success.*
+
+For over a decade, Python has been the dominant language of artificial intelligence and machine learning. Its rich ecosystem of libraries like PyTorch and TensorFlow has made it the primary choice for data scientists and ML researchers.
+
+But a major shift is underway. The latest data from [GitHub's 2025 Octoverse report](https://github.blog/news-insights/octoverse/octoverse-a-new-developer-joins-github-every-second-as-ai-leads-typescript-to-1/) reveals a pretty cool development in my opinion. TypeScript has officially overtaken Python as the most-used language on the platform. This isn't just a statistical blip; it's a change in how modern, production-ready applications, including AI applications, are being built.
+
+TypeScript is winning because of two primary factors:
+
+* **AI coding assistants write TypeScript more easily** thanks to its type system, leading to more TypeScript being written overall.
+* **Teams can build entire AI applications in TypeScript** without needing Python at the application level, keeping Python where it shines in the ML world.
+
+For founders, engineering leads, and investors, understanding this shift is no longer optional. It's critical for navigating the future of software.
+
+This article explores the five key takeaways that explain this new reality.
+
+## 1. The Upset of the Decade: TypeScript is Now GitHub's #1 Language
+
+In August 2025, for the first time, TypeScript became the most-used programming language on GitHub, surpassing both Python and JavaScript based on monthly contributor counts according to GitHub Octoverse 2025. This milestone caps a decade-long trend but has accelerated dramatically in the past year.
+
+According to the report, TypeScript's growth has been explosive, adding over **1 million contributors** in 2025 alone, a 66% year-over-year increase. This represents the most significant language transition in over a decade, marking a significant shift in software development trends and signaling a new default for modern application development.
+
+*Why this matters: Language trends are leading indicators of future ecosystem dominance. TypeScript's ascent signals a reallocation of developer talent, tooling investment, and ultimately, market power away from purely Python-centric AI development.*
+
+## 2. Counter-intuitive, but True: AI is Fueling TypeScript's Rise
+
+While common assumption suggests the generative AI boom would exclusively benefit Python, the data reveals a more nuanced reality. The rise of AI coding assistants is one of the two primary drivers behind TypeScript's ascent and increased usage.
+
+The reason is simple, ***reliability***. Statically-typed languages provide structural "guardrails" that help AI coding assistants generate correct code, making their output more predictable and catching potential bugs early. As GitHub's Octoverse 2025 report found, *94% of LLM-generated compilation errors* were type-check failures, a problem TypeScript is purpose-built to solve before code ever reaches production.
+
+This dynamic has created a powerful feedback loop. AI models are getting better at writing TypeScript because it's so popular, and in turn, more developers are choosing TypeScript because AI assistants are so effective at helping them write it quickly and safely. This is why more TypeScript is being written. AI can generate it more reliably, leading to increased adoption and usage across the industry.
+
+*Why this matters: The AI-assisted development feedback loop is accelerating TypeScript adoption in ways that traditional language adoption patterns couldn't predict. As AI coding tools become more central to software development, the languages that work best with these tools gain structural advantages that compound over time, reshaping the competitive landscape for programming languages.*
+
+## 3. The New Division of Labor: "Python Trains, TypeScript Ships"
+
+The industry is rapidly converging on a new paradigm that leverages the distinct strengths of both Python and TypeScript. This emerging standard represents the second major driver of TypeScript adoption. Teams can build entire AI applications without needing Python at the application or backend level. This paradigm can be summarized in a simple phrase: 
+
+> "Python trains, TypeScript ships." - Coined by Mastra AI
+
+This describes a complementary, not competitive, relationship:
+
+* **Python** remains the dominant language for the research, experimentation, and training phases of AI/ML development. Its mature ecosystem, built on highly-optimized, low-level C and Fortran code wrapped in libraries like NumPy and Pandas, remains the strongest environment for computationally intense work.
+* **TypeScript** is becoming the language of choice for AI application development. It is used to build production-ready, scalable, and user-facing applications that consume the models trained in Python. Becaue of this, the entire application stack, including the backend layer, can be built entirely in TypeScript.
+
+This specialization allows data scientists to remain in Python's powerful ML environment while application developers use TypeScript's robust tooling and type safety to build and deploy reliable software at scale. This is why teams are choosing TypeScript. They can keep everything in one language, avoiding the complexity and context-switching costs of maintaining a Python backend.
+
+*Why this matters: This paradigm resolves a key bottleneck in AI development, allowing data science and application teams to operate in parallel without compromise. It signals a maturation of the AI development lifecycle, moving from single-language experimentation to specialized, scalable production workflows.*
+
+## 4. The ecosystem is ready: The AI stack has arrived in TypeScript
+
+This division of labor is possible because TypeScript now has a mature, comprehensive AI development stack. Teams can build, deploy, and monitor complex AI systems entirely in TypeScript, avoiding Python at the application level.
+
+This modern stack includes first-class support across every layer of AI application development:
+
+* **Agent Frameworks:** [LiveKit Voice Agents](https://livekit.io/?utm_source=codestackr&utm_medium=article&utm_campaign=devrel&utm_content=what-just-happened-with-typescript), [Vercel's AI SDK](https://sdk.vercel.ai/), [LangChain.js](https://js.langchain.com/), [Mastra AI](https://mastra.ai/), and [VoltAgent](https://voltagent.dev/) provide powerful abstractions for building and orchestrating complex, multi-agent systems entirely in TypeScript. This capability was once exclusive to Python frameworks. These frameworks standardize LLM integration across providers and enable developers to build streaming, conversational user interfaces in TypeScript-first frameworks like React, TanStack and Next.js.
+* **Vector Databases:** Major vector database providers now offer first-class TypeScript support, including [Supabase (PostgreSQL/pgVector)](https://supabase.com), [MongoDB Atlas Vector Search](https://www.mongodb.com/), [Weaviate](https://weaviate.io/), [Pinecone](https://www.pinecone.io/), and [Qdrant](https://qdrant.tech/). This makes implementing Retrieval-Augmented Generation (RAG) and long-term memory for agents a native TypeScript experience.
+* **Observability:** Platforms such as [Langfuse](https://langfuse.com/) provide dedicated JS/TS SDKs to trace, debug, and monitor LLM applications in production, a critical component for enterprise-grade systems. Some agent frameworks, like Mastra AI, have this built-in. 
+
+This complete, production-ready toolchain empowers developers to build end-to-end AI applications efficiently and reliably using a single, unified language. This full-stack TypeScript capability is a key reason teams are choosing TypeScript over Python for application development, driving increased TypeScript adoption across the industry.
+
+*Why this matters: The maturity of the TypeScript AI ecosystem removes the last technical barrier that forced teams into Python for production AI applications. This ecosystem readiness means the choice between Python and TypeScript is no longer constrained by tooling gaps, but by strategic considerations about team composition, development velocity, and long-term maintainability.*
+
+[LiveKit Agents](https://docs.livekit.io/agents/?utm_source=codestackr&utm_medium=article&utm_campaign=devrel&utm_content=what-just-happened-with-typescript) demonstrates this ecosystem maturity by providing a complete framework for building production-ready voice AI applications entirely in TypeScript, handling realtime audio processing, streaming conversations, and integration with any LLM provider. You can build voice agents that integrate with your existing TypeScript application stack, from frontend React components to backend services, all within a single language ecosystem.
+
+## 5. The Ultimate Metric: Development Velocity
+
+For startups and enterprises alike, the ultimate driver behind this trend is development velocity. The data strongly supports this. Mastra AI's founder, [Sam Bhagwat](https://x.com/calcsam), revealed that an estimated 60-70% of YC X25 agent companies are building their agents in TypeScript.
+
+![Screenshot of tweet from Sam Bhagwat, founder of Mastra AI](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/public/assets/blog/what-just-happened-with-typescript/sam-bhagwat-tweet.png)
+
+The reason is the single-language approach. Small, agile teams can use TypeScript for both the user-facing frontend and the AI-powered backend, avoiding Python entirely at the application layer. This eliminates the high "cost of context switch between languages," allowing teams to iterate, collaborate, and ship products significantly faster. [A developer on Hacker News articulated this perfectly](https://news.ycombinator.com/item?id=44212560):
+
+> "If you're a team with 1-2 eng and have to build a frontend, you are forced to use js/ts. Now, if you can keep everything in a monorepo in the same language, you're simply moving faster."
+
+This single-language approach, using TypeScript for both frontend and backend, isn't limited to startups. Enterprises are recognizing that unifying their stack with TypeScript reduces cross-team friction and accelerates the deployment of AI features into existing web applications. This mirrors the enterprise adoption patterns that turned Java into an industry standard. The velocity gains from this approach are driving increased TypeScript adoption, as teams choose TypeScript over maintaining separate Python backends.
+
+*Why this matters: In competitive markets, development velocity directly translates to business outcomes. Teams that can ship AI features faster gain first-mover advantages, respond to market changes more quickly, and iterate on user feedback with shorter cycles. The single-language TypeScript approach isn't just a technical preference; it's becoming a strategic differentiator for companies building AI-powered products.*
+
+## Conclusion
+
+TypeScript's ascent to the top of GitHub's language rankings isn't just a popularity contest; It's a reflection of a shift in how the industry builds and deploys modern, AI-powered software. TypeScript is winning because of two primary factors working together. First, AI coding assistants can write TypeScript more easily thanks to its type system, leading to more TypeScript being written overall. Second, teams can build entire AI applications in TypeScript without needing Python at the application level, keeping Python where it shines in the ML world.
+
+The new paradigm combines the strengths of both. Python provides unmatched power for modeling, while TypeScript delivers speed, safety, and scalability for application delivery. This specialized division of labor represents a critical maturation in the AI development lifecycle, enabling teams to ship smarter, more reliable products faster than ever before. The evidence suggests the TypeScript ecosystem is already becoming the de facto standard for intelligent application delivery. How the industry adapts to a world where the most valuable AI isn't the model itself, but the speed and quality of the product that ships it, will determine the next phase of AI development.
+
+---
+
+## **Thanks for reading!**
+
+Say Hello! [YouTube](https://youtube.com/codeSTACKr) | [Twitter](https://twitter.com/codeSTACKr) | [Instagram](https://www.instagram.com/codeSTACKr) | [TikTok](https://www.tiktok.com/@codestackr)

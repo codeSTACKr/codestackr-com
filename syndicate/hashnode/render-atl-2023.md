@@ -1,0 +1,573 @@
+---
+title: "Render ATL 2023 Trip Report"
+excerpt: "Where diversity meets development - Render ATL 2023 - the leading tech conference held in Atlanta, Georgia. This comprehensive trip report by Senior Developer Advocate, Jesse Hall, provides insights into the event's workshops, talks, and networking opportunities. With over 2600 attendees and 100 speakers, the conference covered a range of topics from design & CSS, web & mobile engineering, to leadership & entrepreneurship. Discover the highlights of Render ATL, its impact on the tech community, and why it's a must-attend event for tech professionals."
+description: "Where diversity meets development - Render ATL 2023 - the leading tech conference held in Atlanta, Georgia. This comprehensive trip report by Senior Developer Advocate, Jesse Hall, provides insights into the event's workshops, talks, and networking opportunities. With over 2600 attendees and 100 speakers, the conference covered a range of topics from design & CSS, web & mobile engineering, to leadership & entrepreneurship. Discover the highlights of Render ATL, its impact on the tech community, and why it's a must-attend event for tech professionals."
+coverImage: "/assets/blog/render-atl-2023/cover.jpg"
+date: "2023-06-06T00:00:00.000Z"
+tags: ""
+subtitle: ""
+canonical: "https://codestackr.com/blog/render-atl-2023"
+author:
+  name: "Jesse Hall"
+  picture: "/assets/blog/authors/jesse.png"
+---
+
+
+
+# Render ATL 2023 Trip Report
+
+> Don't let the FOMO get you down! Check out my trip report from Render ATL 2023. I'll talk about all of my experiences throughout the entire event.
+
+<figure>
+  <video
+    style={{ marginRight: "auto", marginLeft: "auto" }}
+    width="50%"
+    controls
+    loop
+    muted
+    autoPlay
+    playsInline
+  >
+    <source src="/assets/blog/render-atl-2023/fomo_480p.mp4" type="video/mp4" />
+  </video>
+  <figcaption>
+    [https://twitter.com/DThompsonDev/status/1664213594723037185](https://twitter.com/DThompsonDev/status/1664213594723037185)
+  </figcaption>
+</figure>
+
+For anyone who has never heard of [Render ATL](https://www.renderatl.com/), it is THE tech conference where diversity meets development. This year, it was held May 31 - June 2, 2023 at the Americasmart Building in Atlanta, Georgia.
+
+There were 2600+ in attendance with about 100 speakers! With 12 workshops and 95 talks, there was something for everyone. The topics ranged from design & CSS, web & mobile engineering, product & project management, and leadership & entrepreneurship.
+
+In this article, I want to take you on a trip through Render ATL from my eyes. I'll talk about all of my experiences throughout the entire event.
+
+> There were so many great speakers! I just did not have time to attend every session. If your talk is not mentioned, it's not because it wasn't great!!
+
+## Who am I?
+
+You're probably wondering who I am. My name is Jesse Hall. I'm a Senior Developer Advocate at [MongoDB](https://mongodb.com) and a [Tech YouTuber](https://youtube.com/codestackr). I have over 20 years of development experience and I love to help developers learn new things. I also love long walks on the beach, VS Code, coding in React, and CSS is my jam. 😅 If you want to hear more from me, follow me on [Twitter](https://twitter.com/codestackr).
+
+## Day 1: May 31
+
+### Hotel
+
+The first thing I did after landing in Atlanta was check in at the [Westin Peachtree Plaza](https://www.marriott.com/en-us/hotels/atlpl-the-westin-peachtree-plaza-atlanta/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0) hotel. This 73 floor hotel is amazing! It was the perfect spot to host this event. We even got custom key cards for our rooms.
+
+<figure>
+
+![/assets/blog/render-atl-2023/Untitled](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/public/assets/blog/render-atl-2023/1.jpg)
+
+</figure>
+
+### Workshops
+
+I got in late, so there was no time to attend an entire workshop. But I got to check out the venue and the workshops seemed well attended and received.
+
+Some that stood out to me:
+
+- AI for JavaScript - Tensorflow.js - Gant Laborde
+- Reactivity Deep Dive with Vue.js - Evan You
+- TypeScript, Quickly and Effectively - Adam Rackis
+- Build a Simple Chat App with Appwrite - Wess Cope
+
+### Dinner
+
+By this time I was hungry. So what do I do? Check Twitter of course!
+
+<figure>
+
+![[https://twitter.com/jescalan/status/1663983229060169732](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/publichttps://twitter.com/jescalan/status/1663983229060169732)](/assets/blog/render-atl-2023/2.jpg)
+
+<figcaption>[https://twitter.com/jescalan/status/1663983229060169732](https://twitter.com/jescalan/status/1663983229060169732)</figcaption>
+</figure>
+
+I saw that the [Clerk](https://clerk.com) crew were hanging out for dinner, so I met the at [Tin Lizzy's](https://tinlizzyscantina.com/locations/downtown-atl/) for some awesome tacos. I meet so many great people here.
+
+<figure>
+
+![Left to right: [@adamdotdev](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/publichttps://twitter.com/@adamdotdev), [@SteinlageScott](https://twitter.com/@SteinlageScott), [@devagrawal09](https://twitter.com/@devagrawal09), [@jescalan](https://twitter.com/@jescalan), [@codestackr](https://twitter.com/@codestackr), [@gabe_g2i](https://twitter.com/@gabe_g2i), [@zeu_dev](https://twitter.com/@zeu_dev), [@DenzelEch](https://twitter.com/@DenzelEch), [@ReggieDFord](https://twitter.com/@ReggieDFord), [@jamesqquick](https://twitter.com/@jamesqquick), [@domitriusclark](https://twitter.com/@domitriusclark), [@r_marked](https://twitter.com/@r_marked), [@jetpackjoe_](https://twitter.com/@jetpackjoe_)](/assets/blog/render-atl-2023/FxiSx00WIAEq_p7.jpg)
+
+<figcaption>Left to right: [@adamdotdev](https://twitter.com/@adamdotdev), [@SteinlageScott](https://twitter.com/@SteinlageScott), [@devagrawal09](https://twitter.com/@devagrawal09), [@jescalan](https://twitter.com/@jescalan), [@codestackr](https://twitter.com/@codestackr), [@gabe_g2i](https://twitter.com/@gabe_g2i), [@zeu_dev](https://twitter.com/@zeu_dev), [@DenzelEch](https://twitter.com/@DenzelEch), [@ReggieDFord](https://twitter.com/@ReggieDFord), [@jamesqquick](https://twitter.com/@jamesqquick), [@domitriusclark](https://twitter.com/@domitriusclark), [@r_marked](https://twitter.com/@r_marked), [@jetpackjoe\_](https://twitter.com/@jetpackjoe_)</figcaption>
+</figure>
+
+### VIP Reception
+
+After dinner I went to the VIP Reception on the top floor of the Westin (73rd floor!) at the amazing [Sun Dial](https://www.opentable.com/r/the-sun-dial-restaurant-bar-and-view-atlanta) restaurant. This is a swanky restaurant with great food, drinks, and an awesome live band.
+
+Everyone dressed up and we had an amazing time! Check it out:
+
+<figure>
+
+![VIP Reception Party](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/public/assets/blog/render-atl-2023/3.jpg)
+
+</figure>
+
+<figure>
+
+![https://twitter.com/codeSTACKr/status/1664115905603706880](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/public/assets/blog/render-atl-2023/4.jpg)
+
+<figcaption>[https://twitter.com/codeSTACKr/status/1664115905603706880](https://twitter.com/codeSTACKr/status/1664115905603706880)</figcaption>
+</figure>
+
+<figure>
+
+![https://twitter.com/techgirl1908/status/1665449238082252801](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/public/assets/blog/render-atl-2023/5.jpg)
+
+<figcaption>[https://twitter.com/techgirl1908/status/1665449238082252801](https://twitter.com/techgirl1908/status/1665449238082252801)</figcaption>
+</figure>
+
+<figure>
+
+![https://twitter.com/focusotter/status/1664043099780182018](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/public/assets/blog/render-atl-2023/6.jpg)
+
+<figcaption>[https://twitter.com/focusotter/status/1664043099780182018](https://twitter.com/focusotter/status/1664043099780182018)</figcaption>
+</figure>
+
+<figure>
+
+![[https://twitter.com/LDLockhartJr/status/1665348099408121857](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/publichttps://twitter.com/LDLockhartJr/status/1665348099408121857)](/assets/blog/render-atl-2023/7.jpg)
+
+<figcaption>[https://twitter.com/LDLockhartJr/status/1665348099408121857](https://twitter.com/LDLockhartJr/status/1665348099408121857)</figcaption>
+</figure>
+
+## Day 2: June 1
+
+The second day started with small hiccup. There seemed to be an issue with the check-in system that caused a delay in getting everyone through the registration line quickly. However, this only put the schedule behind by 20 minutes, and by lunch everything was back on track. The Render ATL team did a great job working under pressure!
+
+### The talks
+
+<div className="special_list">
+
+- <strong>Generative AI - A Builder's Guide</strong>
+
+    Speaker: [Banjo Obayomi](https://twitter.com/banjtheman)
+    
+    This was a great introduction to AI's history and how it can be used in today's applications.
+    
+    <figure>
+
+    ![[https://twitter.com/techgirl1908/status/1664269017182502912](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/publichttps://twitter.com/techgirl1908/status/1664269017182502912)](/assets/blog/render-atl-2023/8.jpg)
+
+    <figcaption>[https://twitter.com/techgirl1908/status/1664269017182502912](https://twitter.com/techgirl1908/status/1664269017182502912)</figcaption>
+    </figure>
+
+- <strong>Creating a whole new world with generative AI</strong>
+
+    Speaker: [Colby Fayock](https://twitter.com/colbyfayock)
+
+    Catching the theme here?! 😅 AI is everywhere. This was a great one outlining tools we can use to build visual experiences with AI.
+
+    <figure>
+
+        ![[https://twitter.com/codeSTACKr/status/1664289255126888448](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/publichttps://twitter.com/codeSTACKr/status/1664289255126888448)](/assets/blog/render-atl-2023/9.jpg)
+
+        <figcaption>[https://twitter.com/codeSTACKr/status/1664289255126888448](https://twitter.com/codeSTACKr/status/1664289255126888448)</figcaption>
+    </figure>
+
+- <strong>Empowering developers, uplifting users: Building tools in a code first state of mind</strong>
+
+    Speaker: [Yoav Abrahami](https://twitter.com/yoavabrahami)
+
+    [Wix](https://www.wix.com/) has been doing amazing things in the developer tooling front. Tools like [Velo](https://www.wix.com/velo), [Codux](https://www.codux.com/), [Blocks](https://support.wix.com/en/article/wix-blocks-about-coding-in-blocks), and the new [Wix Headless](https://www.wix.com/developers/headless) service have really made developers rethink how Wix is positioned in the web platform landscape.
+    
+    <figure>
+
+        ![[https://twitter.com/DevsOnWix/status/1664308879730130946](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/publichttps://twitter.com/DevsOnWix/status/1664308879730130946)](/assets/blog/render-atl-2023/10.jpg)
+
+        <figcaption>[https://twitter.com/DevsOnWix/status/1664308879730130946](https://twitter.com/DevsOnWix/status/1664308879730130946)</figcaption>
+    </figure>
+
+- <strong>From Zero to Hero: Getting started in developer relations</strong>
+
+    Speaker: [Tracy Lee](https://twitter.com/ladyleet)
+
+    As a developer advocate, I was very interested to hear what Tracy had to say out the industry. And she did not disappoint! She really got me thinking about how I can help developers and how there are different buckets that a developer advocate can fit into.
+
+    <figure>
+        
+        ![[https://twitter.com/codeSTACKr/status/1664327664839057408](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/publichttps://twitter.com/codeSTACKr/status/1664327664839057408)](/assets/blog/render-atl-2023/11.jpg)
+
+        <figcaption>[https://twitter.com/codeSTACKr/status/1664327664839057408](https://twitter.com/codeSTACKr/status/1664327664839057408)</figcaption>
+    </figure>
+
+- <strong>Think like an attacker: Protecting your JavaScript applications from malicious packages</strong>
+
+    Speaker: [Charlie Gerard](https://twitter.com/devdevcharlie)
+
+    Cybersecurity is a hot topic. In this talk, Charlie showed how to use open-source packages safely.
+
+    <figure>
+        
+        ![[https://twitter.com/codeSTACKr/status/1664359663830278148](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/publichttps://twitter.com/codeSTACKr/status/1664359663830278148)](/assets/blog/render-atl-2023/12.jpg)
+        
+        <figcaption>[https://twitter.com/codeSTACKr/status/1664359663830278148](https://twitter.com/codeSTACKr/status/1664359663830278148)</figcaption>
+    </figure>
+
+- <strong>From exploration to modification: Achieve more with a visual IDE</strong>
+
+    Speakers: [Tom Raviv](https://twitter.com/RavivTom), [Jonathan Marton](https://twitter.com/martonwix)
+
+    Wix's new visual IDE for React is amazing! This talk showed it off and you need to download [Codux](https://www.codux.com/) and give it a try if you haven't already! (It's free)
+
+    <figure>
+        
+        ![[https://twitter.com/codeSTACKr/status/1664374559213010944](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/publichttps://twitter.com/codeSTACKr/status/1664374559213010944)](/assets/blog/render-atl-2023/13.jpg)
+
+        <figcaption>[https://twitter.com/codeSTACKr/status/1664374559213010944](https://twitter.com/codeSTACKr/status/1664374559213010944)</figcaption>
+    </figure>
+
+</div>
+
+### Dinner
+
+I was invited to attend a dinner hosted by Wix at the [Ponce City Market](https://www.poncecitymarket.com/). Great food and great company! Thank you again to the Wix team!
+
+Can you find me in the picture?
+
+<figure>
+    
+    ![[https://twitter.com/DevsOnWix/status/1664446627631824897](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/publichttps://twitter.com/DevsOnWix/status/1664446627631824897)](/assets/blog/render-atl-2023/14.jpg)
+    
+    <figcaption>[https://twitter.com/DevsOnWix/status/1664446627631824897](https://twitter.com/DevsOnWix/status/1664446627631824897)</figcaption>
+</figure>
+
+### Rooftop party
+
+After dinner, we were escorted to the rooftop where the fun continued. The roof of the Ponce City Market is like a mini carnival with putt-putt golf, carnival games, and even rides. But people were mostly dancing because there was a great DJ there too!
+
+<figure>
+    
+    ![[https://twitter.com/Devchicajasmin/status/1664498154660659201](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/publichttps://twitter.com/Devchicajasmin/status/1664498154660659201)](/assets/blog/render-atl-2023/15.jpg)
+    
+    <figcaption>[https://twitter.com/Devchicajasmin/status/1664498154660659201](https://twitter.com/Devchicajasmin/status/1664498154660659201)</figcaption>
+</figure>
+
+<figure>
+    
+    ![[https://twitter.com/focusotter/status/1664454195749978114](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/publichttps://twitter.com/focusotter/status/1664454195749978114)](/assets/blog/render-atl-2023/16.jpg)
+    
+    <figcaption>[https://twitter.com/focusotter/status/1664454195749978114](https://twitter.com/focusotter/status/1664454195749978114)</figcaption>
+</figure>
+
+## Day 3: June 2
+
+It's hard to believe it's already Day 3! Here's the line up of talks that I attended:
+
+### The talks
+
+<div className="special_list">
+
+- <strong>From Vanilla JS to React: Refactoring your project</strong>
+
+    Speaker: [Cat Ballar](https://twitter.com/catballar)
+
+    Cat did an amazing job explaining how to translate a vanilla JavaScript project into React components and demonstrated the use of hooks.
+    
+    <figure>
+        
+        ![[https://twitter.com/codeSTACKr/status/1664623079086071814](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/publichttps://twitter.com/codeSTACKr/status/1664623079086071814)](/assets/blog/render-atl-2023/17.jpg)
+        
+        <figcaption>[https://twitter.com/codeSTACKr/status/1664623079086071814](https://twitter.com/codeSTACKr/status/1664623079086071814)</figcaption>
+    </figure>
+
+- <strong>Real Talk: Diversity in Tech - Level up your online brand</strong>
+
+    Speakers: [Anthony D. Mays](https://twitter.com/anthonydmays), [Janackeh Blackwell](https://twitter.com/janackeh), [Lawrence Lockhart](https://twitter.com/LDLockhartJr), [Katrina Tucker](https://twitter.com/TuckerTech901)
+
+    This was a very inspirational and practical panel discussion from these online influencers. (I know they like me calling them that 😅)
+
+    <figure>
+        
+        ![[https://twitter.com/codeSTACKr/status/1664624949569495040](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/publichttps://twitter.com/codeSTACKr/status/1664624949569495040)](/assets/blog/render-atl-2023/18.jpg)
+        
+        <figcaption>[https://twitter.com/codeSTACKr/status/1664624949569495040](https://twitter.com/codeSTACKr/status/1664624949569495040)</figcaption>
+    </figure>
+
+- <strong>Leveling up with Copilot</strong>
+
+    Speaker: [Rizel Scarlet](https://twitter.com/blackgirlbytes)
+
+    This session was standing room only! Rizel is a captivating speaker and made this talk very fun. We learned how to use Copilot to improve our productivity.
+
+    <figure>
+        
+        ![[https://twitter.com/codeSTACKr/status/1664631128479629316](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/publichttps://twitter.com/codeSTACKr/status/1664631128479629316)](/assets/blog/render-atl-2023/19.jpg)
+        
+        <figcaption>[https://twitter.com/codeSTACKr/status/1664631128479629316](https://twitter.com/codeSTACKr/status/1664631128479629316)</figcaption>
+    </figure>
+
+- <strong>Fresh Style: The next generation of CSS</strong>
+
+    Speaker: [Scott Tolinski](https://twitter.com/stolinski)
+
+    Scott demonstrated what the future of CSS looks like. There are some really cool things that are ready to ship today or will be ready in the near future.
+
+    <figure>
+        
+        ![[https://twitter.com/codeSTACKr/status/1664648611118952453](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/publichttps://twitter.com/codeSTACKr/status/1664648611118952453)](/assets/blog/render-atl-2023/20.jpg)
+        
+        <figcaption>[https://twitter.com/codeSTACKr/status/1664648611118952453](https://twitter.com/codeSTACKr/status/1664648611118952453)</figcaption>
+    </figure>
+
+- <strong>Improve your data fetching with React Query</strong>
+
+    Speaker: [Danny Thompson](https://twitter.com/DThompsonDev)
+
+    Somehow Danny made state management in React seem cool. 😅 React query is an amazing tool and Danny made it easy to understand.
+
+    <figure>
+        
+        ![[https://twitter.com/codeSTACKr/status/1664640431383093253](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/publichttps://twitter.com/codeSTACKr/status/1664640431383093253)](/assets/blog/render-atl-2023/21.jpg)
+        
+        <figcaption>[https://twitter.com/codeSTACKr/status/1664640431383093253](https://twitter.com/codeSTACKr/status/1664640431383093253)</figcaption>
+    </figure>
+
+- <strong>Neurodiversity in the workplace</strong>
+
+    Speaker: [Wesley Faulkner](https://twitter.com/wesley83)
+
+    Wesley talked about the difference between neurotypical, neurodivergent, and neurodiversity. The main takeaway: We are all involved in neurodiversity. This is a great subject to learn more about.
+
+- <strong>Streaming server rendering with suspense</strong>
+
+    Speaker: [Shaundai Person](https://twitter.com/shaundai)
+
+    React kept us in suspense for a long time before finally releasing this feature. Since then, I haven't heard a lot about it. I think most developers don't fully understand it. Shaundai did an awesome job at explaining it with easy to understand examples.
+
+    <figure>
+        
+        ![[https://twitter.com/codeSTACKr/status/1664692585586122752](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/publichttps://twitter.com/codeSTACKr/status/1664692585586122752)](/assets/blog/render-atl-2023/22.jpg)
+        
+        <figcaption>[https://twitter.com/codeSTACKr/status/1664692585586122752](https://twitter.com/codeSTACKr/status/1664692585586122752)</figcaption>
+    </figure>
+
+- <strong>Thinking across the framework barrier</strong>
+
+    Speaker: [Evan You](https://twitter.com/youyuxi)
+
+    Evan discussed why there are so many JavaScript frameworks and why it's a good thing. Main takeaway: No single JavaScript framework can be a silver bullet.
+
+    <figure>
+        
+        ![[https://twitter.com/codeSTACKr/status/1664704809948139546](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/publichttps://twitter.com/codeSTACKr/status/1664704809948139546)](/assets/blog/render-atl-2023/23.jpg)
+        
+        <figcaption>[https://twitter.com/codeSTACKr/status/1664704809948139546](https://twitter.com/codeSTACKr/status/1664704809948139546)</figcaption>
+    </figure>
+
+- <strong>The wind and the waves: The formation of framework waves from the epicenter</strong>
+
+    Speaker: [Sarah Drasner](https://twitter.com/sarah_edo)
+
+    This was one of my favorite talks. Sarah talked about the evolution of JavaScript frameworks and new stuff in Angular. Main takeaway: Sarah is Angular's grandma. 😂
+
+    <figure>
+        
+        ![[https://twitter.com/codeSTACKr/status/1664728967088070658](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/publichttps://twitter.com/codeSTACKr/status/1664728967088070658)](/assets/blog/render-atl-2023/24.jpg)
+
+        <figcaption>[https://twitter.com/codeSTACKr/status/1664728967088070658](https://twitter.com/codeSTACKr/status/1664728967088070658)</figcaption>
+    </figure>
+
+- <strong>How content creation took my career to the next level</strong>
+
+    Speaker: [James Q Quick](https://twitter.com/jamesqquick)
+
+    This one hit home. James is a great speaker and has recently gone full-time at content creation. He talked about his journey and all of the many things involved in working for yourself, creating content full-time. This was a very inspirational talk!
+
+    <figure>
+        
+        ![[https://twitter.com/codeSTACKr/status/1664764068824055808](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/publichttps://twitter.com/codeSTACKr/status/1664764068824055808)](/assets/blog/render-atl-2023/25.jpg)
+
+        <figcaption>[https://twitter.com/codeSTACKr/status/1664764068824055808](https://twitter.com/codeSTACKr/status/1664764068824055808)</figcaption>
+    </figure>
+
+</div>
+
+### Closing session
+
+Justin and Angie closed out the conference with reflection, gratitude, and the announcement that Render ATL will be back next year on <strong>June 12 - 14, 2024</strong>!!
+
+<figure>
+    
+    ![[https://twitter.com/anthonydmays/status/1664756999970586624](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/publichttps://twitter.com/anthonydmays/status/1664756999970586624)](/assets/blog/render-atl-2023/26.jpg)
+    
+    <figcaption>[https://twitter.com/anthonydmays/status/1664756999970586624](https://twitter.com/anthonydmays/status/1664756999970586624)</figcaption>
+</figure>
+
+## Concert with Kaytranada
+
+After the last session, the attendees made their way to the Kaytranada concert at Historic Fourth Ward Skatepark.
+
+<figure>
+    
+    ![[https://twitter.com/ThugDebugger/status/1664790619644993538](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/publichttps://twitter.com/ThugDebugger/status/1664790619644993538)](/assets/blog/render-atl-2023/27.jpg)
+    
+    <figcaption>[https://twitter.com/ThugDebugger/status/1664790619644993538](https://twitter.com/ThugDebugger/status/1664790619644993538)</figcaption>
+</figure>
+
+### Daily themes
+
+Each day had it's own theme!
+
+<strong>🏀 Day 1: Jersey day</strong>
+
+<figure>
+    
+    ![[https://twitter.com/ladyleet/status/1663918510353838086](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/publichttps://twitter.com/ladyleet/status/1663918510353838086)](/assets/blog/render-atl-2023/28.jpg)
+    
+    <figcaption>[https://twitter.com/ladyleet/status/1663918510353838086](https://twitter.com/ladyleet/status/1663918510353838086)</figcaption>
+</figure>
+
+<figure>
+    
+    ![[https://twitter.com/blkgrlcto/status/1664018048414613507](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/publichttps://twitter.com/blkgrlcto/status/1664018048414613507)](/assets/blog/render-atl-2023/29.jpg)
+    
+    <figcaption>[https://twitter.com/blkgrlcto/status/1664018048414613507](https://twitter.com/blkgrlcto/status/1664018048414613507)</figcaption>
+</figure>
+
+<figure>
+    
+    ![[https://twitter.com/Devchicajasmin/status/1663867601661952001](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/publichttps://twitter.com/Devchicajasmin/status/1663867601661952001)](/assets/blog/render-atl-2023/30.jpg)
+    
+    <figcaption>[https://twitter.com/Devchicajasmin/status/1663867601661952001](https://twitter.com/Devchicajasmin/status/1663867601661952001)</figcaption>
+</figure>
+
+<strong>🦸 Day 2: Cosplay</strong>
+
+<figure>
+    
+    ![[https://twitter.com/maleja111/status/1664417397967581184](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/publichttps://twitter.com/maleja111/status/1664417397967581184)](/assets/blog/render-atl-2023/31.jpg)
+    
+    <figcaption>[https://twitter.com/maleja111/status/1664417397967581184](https://twitter.com/maleja111/status/1664417397967581184)</figcaption>
+</figure>
+
+<figure>
+    
+    ![[https://twitter.com/AbbeyPerini/status/1664317255407005696](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/publichttps://twitter.com/AbbeyPerini/status/1664317255407005696)](/assets/blog/render-atl-2023/32.jpg)
+    
+    <figcaption>[https://twitter.com/AbbeyPerini/status/1664317255407005696](https://twitter.com/AbbeyPerini/status/1664317255407005696)</figcaption>
+</figure>
+
+<figure>
+    
+    ![[https://twitter.com/wasabiwellness/status/1664309897750626307](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/publichttps://twitter.com/wasabiwellness/status/1664309897750626307)](/assets/blog/render-atl-2023/33.jpg)
+    
+    <figcaption>[https://twitter.com/wasabiwellness/status/1664309897750626307](https://twitter.com/wasabiwellness/status/1664309897750626307)</figcaption>
+</figure>
+
+<figure>
+    
+    ![[https://twitter.com/nickytonline/status/1664316477229481991](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/publichttps://twitter.com/nickytonline/status/1664316477229481991)](/assets/blog/render-atl-2023/34.jpg)
+    
+    <figcaption>[https://twitter.com/nickytonline/status/1664316477229481991](https://twitter.com/nickytonline/status/1664316477229481991)</figcaption>
+</figure>
+
+<figure>
+    
+    ![[https://twitter.com/ladyleet/status/1664275823262838785](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/publichttps://twitter.com/ladyleet/status/1664275823262838785)](/assets/blog/render-atl-2023/35.jpg)
+    
+    <figcaption>[https://twitter.com/ladyleet/status/1664275823262838785](https://twitter.com/ladyleet/status/1664275823262838785)</figcaption>
+</figure>
+
+<strong>🎨 Day 3: Tie Dye</strong>
+
+<figure>
+    
+    ![[https://twitter.com/xirclebox/status/1665163132610703366](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/publichttps://twitter.com/xirclebox/status/1665163132610703366)](/assets/blog/render-atl-2023/36.jpg)
+    
+    <figcaption>[https://twitter.com/xirclebox/status/1665163132610703366](https://twitter.com/xirclebox/status/1665163132610703366)</figcaption>
+</figure>
+
+<figure>
+    
+    ![[https://twitter.com/emmycacao/status/1664632711464493058](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/publichttps://twitter.com/emmycacao/status/1664632711464493058)](/assets/blog/render-atl-2023/37.jpg)
+    
+    <figcaption>[https://twitter.com/emmycacao/status/1664632711464493058](https://twitter.com/emmycacao/status/1664632711464493058)</figcaption>
+</figure>
+
+## Other's share their experience
+
+✈️ Brandon Bayer showed up in style!
+
+<figure>
+    
+    ![[https://twitter.com/flybayer/status/1662934379117568001](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/publichttps://twitter.com/flybayer/status/1662934379117568001)](/assets/blog/render-atl-2023/38.jpg)
+    
+    <figcaption>[https://twitter.com/flybayer/status/1662934379117568001](https://twitter.com/flybayer/status/1662934379117568001)</figcaption>
+</figure>
+
+🤯 Grey got a Render ATL tattoo!!
+
+<figure>
+    
+    ![[https://twitter.com/GreyNewell/status/1664960670608023552](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/publichttps://twitter.com/GreyNewell/status/1664960670608023552)](/assets/blog/render-atl-2023/39.jpg)
+    
+    <figcaption>[https://twitter.com/GreyNewell/status/1664960670608023552](https://twitter.com/GreyNewell/status/1664960670608023552)</figcaption>
+</figure>
+
+### Games!
+
+🕹️ There was a really cool game room!
+
+<figure>
+    
+    ![[https://twitter.com/sarah_edo/status/1665104672602898434](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/publichttps://twitter.com/sarah_edo/status/1665104672602898434)](/assets/blog/render-atl-2023/40.jpg)
+    
+    <figcaption>[https://twitter.com/sarah_edo/status/1665104672602898434](https://twitter.com/sarah_edo/status/1665104672602898434)</figcaption>
+</figure>
+
+### Secret suites
+
+🥃 Tracy Lee ([This Dot Labs](https://www.thisdot.co/)) had a really nice suite I got to visit a couple times. She had the best whiskey's!!
+
+<figure>
+    
+    ![[https://twitter.com/BenLesh/status/1663982907520630814](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/publichttps://twitter.com/BenLesh/status/1663982907520630814)](/assets/blog/render-atl-2023/41.jpg)
+    
+    <figcaption>[https://twitter.com/BenLesh/status/1663982907520630814](https://twitter.com/BenLesh/status/1663982907520630814)</figcaption>
+</figure>
+
+### Lots of fun!
+
+<figure>
+    
+    ![[https://twitter.com/sarah_edo/status/1664756918961700864](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/publichttps://twitter.com/sarah_edo/status/1664756918961700864)](/assets/blog/render-atl-2023/42.jpg)
+    
+    <figcaption>[https://twitter.com/sarah_edo/status/1664756918961700864](https://twitter.com/sarah_edo/status/1664756918961700864)</figcaption>
+</figure>
+
+### President
+
+Apparently Shaundai is running for President?! 😅
+
+<figure>
+    
+    ![[https://twitter.com/DThompsonDev/status/1664976539308441602](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/publichttps://twitter.com/DThompsonDev/status/1664976539308441602)](/assets/blog/render-atl-2023/43.jpg)
+    
+    <figcaption>[https://twitter.com/DThompsonDev/status/1664976539308441602](https://twitter.com/DThompsonDev/status/1664976539308441602)</figcaption>
+</figure>
+
+### More photos
+
+If you want to see more photos or add your own, check out this thread from Danny Thompson.
+
+<figure>
+    
+    ![[https://twitter.com/DThompsonDev/status/1665440720683925504](https://raw.githubusercontent.com/codeSTACKr/codestackr-com/main/publichttps://twitter.com/DThompsonDev/status/1665440720683925504)](/assets/blog/render-atl-2023/44.jpg)
+    
+    <figcaption>[https://twitter.com/DThompsonDev/status/1665440720683925504](https://twitter.com/DThompsonDev/status/1665440720683925504)</figcaption>
+</figure>
+
+### See you next year Render ATL!
+
+There were so many other great speakers! I just couldn't attend every session. Be sure to check out the [RenderATL](https://www.youtube.com/@RenderATL) YouTube channel for all the talks when they are released.
+
+I had such an amazing time meeting great people in person. I'll definitely be back next year. See you June 12-14, 2024!! 🍑 
+
+---
+
+Be sure to subscribe to my YouTube channel [codeSTACKr](https://www.youtube.com/codeSTACKr/?,sub_confirmation=1) if you haven't already.
+
+
+## **Thanks for reading!**
+
+Say Hello! [YouTube](https://youtube.com/codeSTACKr) | [Twitter](https://twitter.com/codeSTACKr) | [Instagram](https://www.instagram.com/codeSTACKr) | [TikTok](https://www.tiktok.com/@codestackr)
